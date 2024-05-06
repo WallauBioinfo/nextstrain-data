@@ -1,0 +1,1081 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "WEEV outbreak Nextstrain 2024-05-05 analysis by WallauLab",
+    "updated": "2024-05-05",
+    "build_url": "in prep",
+    "maintainers": [
+      {
+        "name": "Filipe Dezordi",
+        "url": "https://dezordi.github.io/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 11539,
+        "start": 1,
+        "strand": "+",
+        "seqid": "weev/outbreak/reference.gb",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Brazil",
+            "#843d6d"
+          ],
+          [
+            "Uruguay",
+            "#406d7e"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "continent"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Brazil": {
+            "latitude": -14.235004,
+            "longitude": -51.92528
+          },
+          "Uruguay": {
+            "latitude": -32.522779,
+            "longitude": -55.765835
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2023.0808219178082,
+        "confidence": [
+          2022.9771048413404,
+          2023.0808219178082
+        ]
+      },
+      "country": {
+        "value": "Brazil",
+        "confidence": {
+          "Brazil": 0.5593260395683877,
+          "Uruguay": 0.4406739604316124
+        },
+        "entropy": 0.6860914123167516
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "PP669617",
+        "node_attrs": {
+          "div": 1.336314044115439e-17,
+          "num_date": {
+            "value": 2023.0808219178082,
+            "confidence": [
+              2023.0808219178082,
+              2023.0808219178082
+            ]
+          },
+          "country": {
+            "value": "Brazil",
+            "confidence": {
+              "Brazil": 1.0
+            },
+            "entropy": -1.000088900581841e-12
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        }
+      },
+      {
+        "name": "NODE_0000012",
+        "node_attrs": {
+          "div": 0.0002601041331744364,
+          "num_date": {
+            "value": 2023.2507601951754,
+            "confidence": [
+              2022.0690830425247,
+              2023.5861900423859
+            ]
+          },
+          "country": {
+            "value": "Uruguay",
+            "confidence": {
+              "Brazil": 0.19885900635715423,
+              "Uruguay": 0.8011409936428456
+            },
+            "entropy": 0.4988165963298282
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A2958G",
+              "C5244T",
+              "A5320G"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.0002601041331744498,
+              "num_date": {
+                "value": 2023.8840264827336,
+                "confidence": [
+                  2023.716661389102,
+                  2023.9067805959392
+                ]
+              },
+              "country": {
+                "value": "Uruguay",
+                "confidence": {
+                  "Brazil": 0.12648481778555934,
+                  "Uruguay": 0.8735151822144407
+                },
+                "entropy": 0.37964943869685397
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "PP747346",
+                "node_attrs": {
+                  "div": 0.000433505290017055,
+                  "num_date": {
+                    "value": 2023.9465753424658,
+                    "confidence": [
+                      2023.9465753424658,
+                      2023.9465753424658
+                    ]
+                  },
+                  "country": {
+                    "value": "Uruguay",
+                    "confidence": {
+                      "Uruguay": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C5034T",
+                      "A11193C"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 0.0002601041331744632,
+                  "num_date": {
+                    "value": 2023.8840264827336,
+                    "confidence": [
+                      2023.7986670294567,
+                      2023.9105958559583
+                    ]
+                  },
+                  "country": {
+                    "value": "Uruguay",
+                    "confidence": {
+                      "Brazil": 0.20925299648472745,
+                      "Uruguay": 0.7907470035152726
+                    },
+                    "entropy": 0.5129652634271025
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "PP747352",
+                    "node_attrs": {
+                      "div": 0.00043349715216338907,
+                      "num_date": {
+                        "value": 2023.9876712328767,
+                        "confidence": [
+                          2023.9876712328767,
+                          2023.9876712328767
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G4854T",
+                          "C9122T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 0.0002601041331744766,
+                      "num_date": {
+                        "value": 2023.8904234094375,
+                        "confidence": [
+                          2023.8633935450541,
+                          2023.9140705038276
+                        ]
+                      },
+                      "country": {
+                        "value": "Brazil",
+                        "confidence": {
+                          "Brazil": 0.702394345833249,
+                          "Uruguay": 0.29760565416675105
+                        },
+                        "entropy": 0.6088219073480692
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "PP544260",
+                        "node_attrs": {
+                          "div": 0.0003467944867012605,
+                          "num_date": {
+                            "value": 2023.9712328767123,
+                            "confidence": [
+                              2023.9712328767123,
+                              2023.9712328767123
+                            ]
+                          },
+                          "country": {
+                            "value": "Brazil",
+                            "confidence": {
+                              "Brazil": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G10610A"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "div": 0.00026010413317449,
+                          "num_date": {
+                            "value": 2023.9120667827303,
+                            "confidence": [
+                              2023.888850826153,
+                              2023.915530297104
+                            ]
+                          },
+                          "country": {
+                            "value": "Brazil",
+                            "confidence": {
+                              "Brazil": 0.6954355507292818,
+                              "Uruguay": 0.3045644492707183
+                            },
+                            "entropy": 0.6146822872481406
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "PP669618",
+                            "node_attrs": {
+                              "div": 0.00034688082576701026,
+                              "num_date": {
+                                "value": 2023.990410958904,
+                                "confidence": [
+                                  2023.990410958904,
+                                  2023.990410958904
+                                ]
+                              },
+                              "country": {
+                                "value": "Brazil",
+                                "confidence": {
+                                  "Brazil": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C10439T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000007",
+                            "node_attrs": {
+                              "div": 0.00026010413317450337,
+                              "num_date": {
+                                "value": 2023.9156119230597,
+                                "confidence": [
+                                  2023.9002521544521,
+                                  2023.9164383561645
+                                ]
+                              },
+                              "country": {
+                                "value": "Uruguay",
+                                "confidence": {
+                                  "Brazil": 0.14956372126637435,
+                                  "Uruguay": 0.8504362787336257
+                                },
+                                "entropy": 0.42195157122736326
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "PP747341",
+                                "node_attrs": {
+                                  "div": 0.00026010413317451676,
+                                  "num_date": {
+                                    "value": 2023.9164383561645,
+                                    "confidence": [
+                                      2023.9164383561645,
+                                      2023.9164383561645
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Uruguay",
+                                    "confidence": {
+                                      "Uruguay": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000010",
+                                "node_attrs": {
+                                  "div": 0.00026010413317451676,
+                                  "num_date": {
+                                    "value": 2023.9246575342465,
+                                    "confidence": [
+                                      2023.9115764206804,
+                                      2023.9246575342465
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Uruguay",
+                                    "confidence": {
+                                      "Brazil": 0.037357197759334666,
+                                      "Uruguay": 0.9626428022406652
+                                    },
+                                    "entropy": 0.15945225162334606
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "PP747342",
+                                    "node_attrs": {
+                                      "div": 0.00026010413317453015,
+                                      "num_date": {
+                                        "value": 2023.9246575342465,
+                                        "confidence": [
+                                          2023.9246575342465,
+                                          2023.9246575342465
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Uruguay",
+                                        "confidence": {
+                                          "Uruguay": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000011",
+                                    "node_attrs": {
+                                      "div": 0.00026010413317453015,
+                                      "num_date": {
+                                        "value": 2023.9544224854878,
+                                        "confidence": [
+                                          2023.9320651280066,
+                                          2023.9876712328767
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Uruguay",
+                                        "confidence": {
+                                          "Brazil": 0.012773969880578285,
+                                          "Uruguay": 0.9872260301194218
+                                        },
+                                        "entropy": 0.06839095877660156
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "PP747350",
+                                        "node_attrs": {
+                                          "div": 0.00026010413317454354,
+                                          "num_date": {
+                                            "value": 2023.9876712328767,
+                                            "confidence": [
+                                              2023.9876712328767,
+                                              2023.9876712328767
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Uruguay",
+                                            "confidence": {
+                                              "Uruguay": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "PP747351",
+                                        "node_attrs": {
+                                          "div": 0.00026010413317454354,
+                                          "num_date": {
+                                            "value": 2023.9876712328767,
+                                            "confidence": [
+                                              2023.9876712328767,
+                                              2023.9876712328767
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Uruguay",
+                                            "confidence": {
+                                              "Uruguay": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.0010407394415763987,
+              "num_date": {
+                "value": 2023.5390717087816,
+                "confidence": [
+                  2022.7189093733405,
+                  2023.8104801902505
+                ]
+              },
+              "country": {
+                "value": "Uruguay",
+                "confidence": {
+                  "Brazil": 0.043046487744646526,
+                  "Uruguay": 0.9569535122553535
+                },
+                "entropy": 0.1775080351643947
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G1455A",
+                  "T2527C",
+                  "C2919T",
+                  "A3016G",
+                  "T5022A",
+                  "C6888T",
+                  "A6987G",
+                  "T8308C",
+                  "T8312C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.0015611101476778262,
+                  "num_date": {
+                    "value": 2023.8841026465825,
+                    "confidence": [
+                      2023.6021812778688,
+                      2023.9027044285654
+                    ]
+                  },
+                  "country": {
+                    "value": "Uruguay",
+                    "confidence": {
+                      "Brazil": 0.004542250680882738,
+                      "Uruguay": 0.9954577493191172
+                    },
+                    "entropy": 0.029034330133402196
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A2890G",
+                      "G4150A",
+                      "C4755T",
+                      "A7170G",
+                      "A9713G",
+                      "A10515C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PP747340",
+                    "node_attrs": {
+                      "div": 0.0018212295983310494,
+                      "num_date": {
+                        "value": 2023.9136986301369,
+                        "confidence": [
+                          2023.9136986301369,
+                          2023.9136986301369
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1510A",
+                          "C3933T",
+                          "C6051T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "PP747349",
+                    "node_attrs": {
+                      "div": 0.0018212199607005927,
+                      "num_date": {
+                        "value": 2023.9493150684932,
+                        "confidence": [
+                          2023.9493150684932,
+                          2023.9493150684932
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A5310G",
+                          "C6091T",
+                          "T7323C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "div": 0.0015611101476778397,
+                      "num_date": {
+                        "value": 2023.9262753373735,
+                        "confidence": [
+                          2023.8897213311375,
+                          2023.9301369863015
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Brazil": 0.007182944431465233,
+                          "Uruguay": 0.9928170555685347
+                        },
+                        "entropy": 0.04261242844801751
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "PP747343",
+                        "node_attrs": {
+                          "div": 0.0015611101476778531,
+                          "num_date": {
+                            "value": 2023.9301369863015,
+                            "confidence": [
+                              2023.9301369863015,
+                              2023.9301369863015
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "PP620645.1",
+                        "node_attrs": {
+                          "div": 0.0016478034690049768,
+                          "num_date": {
+                            "value": 2024.00956284153,
+                            "confidence": [
+                              2024.00956284153,
+                              2024.00956284153
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A1566G"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000001",
+                "node_attrs": {
+                  "div": 0.0021686416281106254,
+                  "num_date": {
+                    "value": 2023.9120381585965,
+                    "confidence": [
+                      2023.8871004841578,
+                      2023.9279066490146
+                    ]
+                  },
+                  "country": {
+                    "value": "Uruguay",
+                    "confidence": {
+                      "Brazil": 0.0012602004732940682,
+                      "Uruguay": 0.998739799526706
+                    },
+                    "entropy": 0.009673114967501655
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C774T",
+                      "G906T",
+                      "T3560C",
+                      "T4008C",
+                      "C4305T",
+                      "C5263T",
+                      "G5520A",
+                      "T8210C",
+                      "G8687A",
+                      "T9342C",
+                      "T9578C",
+                      "C9682T",
+                      "T10767C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PP747354",
+                    "node_attrs": {
+                      "div": 0.00251548429755013,
+                      "num_date": {
+                        "value": 2024.042349726776,
+                        "confidence": [
+                          2024.042349726776,
+                          2024.042349726776
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A6692T",
+                          "C8259T",
+                          "C9548T",
+                          "T10280C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "PP747347",
+                    "node_attrs": {
+                      "div": 0.002255338056661696,
+                      "num_date": {
+                        "value": 2023.9493150684932,
+                        "confidence": [
+                          2023.9493150684932,
+                          2023.9493150684932
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A367G"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.002168641628110639,
+                      "num_date": {
+                        "value": 2023.9438356164383,
+                        "confidence": [
+                          2023.9167893570161,
+                          2023.9438356164383
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Brazil": 0.006623747240257671,
+                          "Uruguay": 0.9933762527597422
+                        },
+                        "entropy": 0.03983372430277023
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "PP620646.1",
+                        "node_attrs": {
+                          "div": 0.0021686416281106523,
+                          "num_date": {
+                            "value": 2024.0505464480875,
+                            "confidence": [
+                              2024.0505464480875,
+                              2024.0505464480875
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "PP747345",
+                        "node_attrs": {
+                          "div": 0.0021686416281106523,
+                          "num_date": {
+                            "value": 2023.9438356164383,
+                            "confidence": [
+                              2023.9438356164383,
+                              2023.9438356164383
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 0.0022553367428266385,
+                      "num_date": {
+                        "value": 2023.9259217841352,
+                        "confidence": [
+                          2023.9117504934088,
+                          2023.9329713425473
+                        ]
+                      },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Brazil": 0.0020464283401301136,
+                          "Uruguay": 0.9979535716598699
+                        },
+                        "entropy": 0.014715119993703278
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C5327T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "PP747348",
+                        "node_attrs": {
+                          "div": 0.0024287382181448817,
+                          "num_date": {
+                            "value": 2023.9493150684932,
+                            "confidence": [
+                              2023.9493150684932,
+                              2023.9493150684932
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T2343C",
+                              "A7465T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "PP620644.1",
+                        "node_attrs": {
+                          "div": 0.0023420314373414574,
+                          "num_date": {
+                            "value": 2023.954794520548,
+                            "confidence": [
+                              2023.954794520548,
+                              2023.954794520548
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Uruguay": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A7738T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "div": 0.002255336742826652,
+                          "num_date": {
+                            "value": 2023.9356164383562,
+                            "confidence": [
+                              2023.9233137168403,
+                              2023.9356164383562
+                            ]
+                          },
+                          "country": {
+                            "value": "Uruguay",
+                            "confidence": {
+                              "Brazil": 0.006757705097991616,
+                              "Uruguay": 0.9932422949020083
+                            },
+                            "entropy": 0.04050355864923539
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "PP747353",
+                            "node_attrs": {
+                              "div": 0.002342031890293526,
+                              "num_date": {
+                                "value": 2024.0396174863388,
+                                "confidence": [
+                                  2024.0396174863388,
+                                  2024.0396174863388
+                                ]
+                              },
+                              "country": {
+                                "value": "Uruguay",
+                                "confidence": {
+                                  "Uruguay": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T7850C"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "PP747344",
+                            "node_attrs": {
+                              "div": 0.0022553367428266653,
+                              "num_date": {
+                                "value": 2023.9356164383562,
+                                "confidence": [
+                                  2023.9356164383562,
+                                  2023.9356164383562
+                                ]
+                              },
+                              "country": {
+                                "value": "Uruguay",
+                                "confidence": {
+                                  "Uruguay": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

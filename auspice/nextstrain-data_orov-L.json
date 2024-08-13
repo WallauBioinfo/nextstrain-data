@@ -47,71 +47,71 @@
         "scale": [
           [
             "Espirito Santo",
-            "#4bcdfe"
+            "#e6a1b4"
           ],
           [
             "Acre",
-            "#843d6d"
+            "#b9d191"
           ],
           [
             "Amapa",
-            "#406d7e"
+            "#ccffcc"
           ],
           [
             "Amazonas",
-            "#b04542"
+            "#316c38"
           ],
           [
             "Minas Gerais",
-            "#ddd462"
+            "#f97f7b"
           ],
           [
             "Para",
-            "#22f6e6"
+            "#97ae9a"
           ],
           [
             "Pernambuco",
-            "#1a3c11"
+            "#e28336"
           ],
           [
             "Rondonia",
-            "#2f1e53"
+            "#c5b3d3"
           ],
           [
             "Parana",
-            "#b9f86a"
+            "#adcde0"
           ],
           [
             "Roraima",
-            "#50b47b"
+            "#b5f7be"
           ],
           [
             "Santa Catarina",
-            "#afe639"
+            "#3979b0"
           ],
           [
             "Rio de Janeiro",
-            "#135cd6"
+            "#d1322c"
           ],
           [
             "Colombia",
-            "#3256e1"
+            "#202020"
           ],
           [
             "Equador",
-            "#510060"
+            "#606060"
           ],
           [
             "Guiana Francesa",
-            "#66d871"
+            "#a0a0a0"
           ],
           [
             "Haiti",
-            "#1e5a7e"
+            "#c0c0c0"
           ],
           [
             "Peru",
-            "#61d049"
+            "#808080"
           ]
         ]
       }
@@ -123,37 +123,21 @@
       {
         "key": "location",
         "demes": {
-          "Guiana Francesa": {
-            "latitude": 3.933889,
-            "longitude": -53.125782
-          },
-          "Santa Catarina": {
-            "latitude": -27.45,
-            "longitude": -50.95
-          },
           "Roraima": {
             "latitude": 1.99,
             "longitude": -61.33
           },
-          "Pernambuco": {
-            "latitude": -8.38,
-            "longitude": -37.86
+          "Guiana Francesa": {
+            "latitude": 3.933889,
+            "longitude": -53.125782
           },
-          "Peru": {
-            "latitude": -9.189967,
-            "longitude": -75.015152
+          "Rondonia": {
+            "latitude": -10.83,
+            "longitude": -63.34
           },
-          "Colombia": {
-            "latitude": 4.570868,
-            "longitude": -74.297333
-          },
-          "Espirito Santo": {
-            "latitude": -19.19,
-            "longitude": -40.34
-          },
-          "Minas Gerais": {
-            "latitude": -18.1,
-            "longitude": -44.38
+          "Parana": {
+            "latitude": -24.89,
+            "longitude": -51.55
           },
           "Haiti": {
             "latitude": 18.971187,
@@ -163,33 +147,49 @@
             "latitude": 1.41,
             "longitude": -51.77
           },
-          "Rondonia": {
-            "latitude": -10.83,
-            "longitude": -63.34
+          "Pernambuco": {
+            "latitude": -8.38,
+            "longitude": -37.86
           },
           "Acre": {
             "latitude": -8.77,
             "longitude": -70.55
           },
+          "Espirito Santo": {
+            "latitude": -19.19,
+            "longitude": -40.34
+          },
           "Rio de Janeiro": {
             "latitude": -22.25,
             "longitude": -42.66
-          },
-          "Para": {
-            "latitude": -3.79,
-            "longitude": -52.48
-          },
-          "Equador": {
-            "latitude": -1.831239,
-            "longitude": -78.183406
           },
           "Amazonas": {
             "latitude": -3.47,
             "longitude": -65.1
           },
-          "Parana": {
-            "latitude": -24.89,
-            "longitude": -51.55
+          "Equador": {
+            "latitude": -1.831239,
+            "longitude": -78.183406
+          },
+          "Santa Catarina": {
+            "latitude": -27.45,
+            "longitude": -50.95
+          },
+          "Minas Gerais": {
+            "latitude": -18.1,
+            "longitude": -44.38
+          },
+          "Peru": {
+            "latitude": -9.189967,
+            "longitude": -75.015152
+          },
+          "Para": {
+            "latitude": -3.79,
+            "longitude": -52.48
+          },
+          "Colombia": {
+            "latitude": 4.570868,
+            "longitude": -74.297333
           }
         }
       }

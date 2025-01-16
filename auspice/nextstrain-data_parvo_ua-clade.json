@@ -1,0 +1,4102 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Parvovirus UA clade analysis by WallauLab",
+    "updated": "2025-01-16",
+    "build_url": "in prep",
+    "maintainers": [
+      {
+        "name": "Filipe Dezordi",
+        "url": "https://dezordi.github.io/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 5323,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "parvo/reference.gb"
+      },
+      "ORFB": {
+        "end": 5313,
+        "seqid": "parvo/reference.gb",
+        "start": 5110,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "polyprotein_NS1_NS2": {
+        "end": 2278,
+        "seqid": "parvo/reference.gb",
+        "start": 272,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "unspecified_polyprotein": {
+        "end": 4540,
+        "seqid": "parvo/reference.gb",
+        "start": 2285,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Bulgaria",
+            "#5b97c9"
+          ],
+          [
+            "Czechia",
+            "#70acde"
+          ],
+          [
+            "Finland",
+            "#9ad6ff"
+          ],
+          [
+            "France",
+            "#afebff"
+          ],
+          [
+            "Germany",
+            "#c4ffff"
+          ],
+          [
+            "Italy",
+            "#eeffff"
+          ],
+          [
+            "Canada",
+            "#ff8c00"
+          ],
+          [
+            "USA",
+            "#ffff99"
+          ],
+          [
+            "China",
+            "#f32b53"
+          ],
+          [
+            "Japan",
+            "#ff5981"
+          ],
+          [
+            "Australia",
+            "#6495ed"
+          ],
+          [
+            "New-Zealand",
+            "#b9eaff"
+          ]
+        ]
+      },
+      {
+        "key": "clade",
+        "title": "Clade",
+        "type": "categorical",
+        "scale": [
+          [
+            "CPV-2",
+            "#FFD700"
+          ],
+          [
+            "UA",
+            "#D2691E"
+          ]
+        ]
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical",
+        "scale": [
+          [
+            "ND",
+            "#D3D3D3"
+          ],
+          [
+            "dog",
+            "#F4A460"
+          ],
+          [
+            "raccoon-dog",
+            "#8A2BE2"
+          ]
+        ]
+      },
+      {
+        "key": "confidence",
+        "title": "confidence",
+        "type": "continuous"
+      }
+    ],
+    "filters": [
+      "country",
+      "clade",
+      "host"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "France": {
+            "latitude": 46.6034,
+            "longitude": 1.8883
+          },
+          "Australia": {
+            "latitude": -25.2744,
+            "longitude": 133.7751
+          },
+          "Japan": {
+            "latitude": 36.2048,
+            "longitude": 138.2529
+          },
+          "China": {
+            "latitude": 35.8617,
+            "longitude": 104.1954
+          },
+          "Canada": {
+            "latitude": 56.1304,
+            "longitude": -106.3468
+          },
+          "Italy": {
+            "latitude": 41.8719,
+            "longitude": 12.5674
+          },
+          "Germany": {
+            "latitude": 51.1657,
+            "longitude": 10.4515
+          },
+          "New-Zealand": {
+            "latitude": -40.9006,
+            "longitude": 174.886
+          },
+          "Finland": {
+            "latitude": 61.9241,
+            "longitude": 25.7482
+          },
+          "USA": {
+            "latitude": 37.0902,
+            "longitude": -95.7129
+          },
+          "Czechia": {
+            "latitude": 49.8175,
+            "longitude": 15.473
+          },
+          "Bulgaria": {
+            "latitude": 42.7339,
+            "longitude": 25.4858
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1966.473,
+        "confidence": [
+          1955.761,
+          1976.87
+        ]
+      },
+      "host": {
+        "value": "dog",
+        "confidence": {
+          "dog": 0.994,
+          "ND": 0.00321,
+          "raccoon-dog": 0.00271
+        },
+        "entropy": 0.0404
+      },
+      "country": {
+        "value": "USA",
+        "confidence": {
+          "USA": 0.984,
+          "Italy": 0.00358,
+          "France": 0.00229,
+          "Canada": 0.0021,
+          "Finland": 0.00126,
+          "Australia": 0.00125,
+          "Japan": 0.00124,
+          "China": 0.00115
+        },
+        "entropy": 0.116
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "M19296_USA_CPV-2_1978_NA_North-America",
+        "node_attrs": {
+          "div": 2.96e-17,
+          "num_date": {
+            "value": 1978.001,
+            "confidence": [
+              1978.001,
+              1978.899
+            ]
+          },
+          "host": {
+            "value": "dog",
+            "confidence": {
+              "dog": 1.0
+            },
+            "entropy": -1e-12
+          },
+          "country": {
+            "value": "USA",
+            "confidence": {
+              "USA": 1.0
+            },
+            "entropy": -1e-12
+          },
+          "clade": {
+            "value": "CPV-2"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        }
+      },
+      {
+        "name": "NODE_0000004",
+        "node_attrs": {
+          "div": 2.96e-17,
+          "num_date": {
+            "value": 1967.909,
+            "confidence": [
+              1958.673,
+              1977.509
+            ]
+          },
+          "host": {
+            "value": "dog",
+            "confidence": {
+              "dog": 0.993,
+              "raccoon-dog": 0.00341,
+              "ND": 0.0033
+            },
+            "entropy": 0.0449
+          },
+          "country": {
+            "value": "USA",
+            "confidence": {
+              "USA": 0.984,
+              "Italy": 0.00367,
+              "France": 0.00234,
+              "Canada": 0.00214,
+              "Finland": 0.00131,
+              "Australia": 0.00127,
+              "Japan": 0.00125,
+              "China": 0.00117
+            },
+            "entropy": 0.118
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "M19296.1",
+            "node_attrs": {
+              "div": 5.92e-17,
+              "num_date": {
+                "value": 1969.573,
+                "confidence": [
+                  1960.649,
+                  1978.74
+                ]
+              },
+              "host": {
+                "value": "dog",
+                "confidence": {
+                  "dog": 0.918,
+                  "ND": 0.0462,
+                  "raccoon-dog": 0.0358
+                },
+                "entropy": 0.34
+              },
+              "country": {
+                "value": "USA",
+                "confidence": {
+                  "USA": 0.784,
+                  "Italy": 0.0344,
+                  "France": 0.0261,
+                  "Canada": 0.0252,
+                  "Australia": 0.0184,
+                  "Finland": 0.0184,
+                  "Japan": 0.0183,
+                  "Germany": 0.0181,
+                  "China": 0.0178,
+                  "New-Zealand": 0.013,
+                  "Bulgaria": 0.013,
+                  "Czechia": 0.013
+                },
+                "entropy": 1.028
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.000564,
+              "num_date": {
+                "value": 1974.443,
+                "confidence": [
+                  1967.293,
+                  1977.713
+                ]
+              },
+              "host": {
+                "value": "dog",
+                "confidence": {
+                  "dog": 0.998,
+                  "raccoon-dog": 0.00212
+                },
+                "entropy": 0.0175
+              },
+              "country": {
+                "value": "USA",
+                "confidence": {
+                  "USA": 0.999
+                },
+                "entropy": 0.00964
+              },
+              "confidence": {
+                "value": 91.6
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A436G",
+                  "T3884G",
+                  "G4060A"
+                ],
+                "unspecified_polyprotein": [
+                  "Y534D"
+                ]
+              },
+              "labels": {
+                "aa": "unspecified_polyprotein: Y534D"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "div": 0.000752,
+                  "num_date": {
+                    "value": 1977.069,
+                    "confidence": [
+                      1974.681,
+                      1978.447
+                    ]
+                  },
+                  "host": {
+                    "value": "dog",
+                    "confidence": {
+                      "dog": 0.998,
+                      "raccoon-dog": 0.00183
+                    },
+                    "entropy": 0.0137
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "USA": 0.999
+                    },
+                    "entropy": 0.00879
+                  },
+                  "confidence": {
+                    "value": 74.0
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G3908A"
+                    ],
+                    "unspecified_polyprotein": [
+                      "D542N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "unspecified_polyprotein: D542N"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "div": 0.00113,
+                      "num_date": {
+                        "value": 1983.692,
+                        "confidence": [
+                          1981.88,
+                          1985.293
+                        ]
+                      },
+                      "host": {
+                        "value": "dog",
+                        "confidence": {
+                          "dog": 1.0
+                        },
+                        "entropy": 0.00138
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "USA": 1.0
+                        },
+                        "entropy": 0.00283
+                      },
+                      "confidence": {
+                        "value": 83.3
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1900C",
+                          "T3517C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MN451664_USA_CPV-2_1985_NA_North-America",
+                        "node_attrs": {
+                          "div": 0.0015,
+                          "num_date": {
+                            "value": 1985.999,
+                            "confidence": [
+                              1985.147,
+                              1985.999
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A3908G",
+                              "G5221A"
+                            ],
+                            "ORFB": [
+                              "V38I"
+                            ],
+                            "unspecified_polyprotein": [
+                              "N542D"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "ORFB: V38I; unspecified_polyprotein: N542D"
+                          }
+                        }
+                      },
+                      {
+                        "name": "MN451665_USA_CPV-2_1986_NA_North-America",
+                        "node_attrs": {
+                          "div": 0.00113,
+                          "num_date": {
+                            "value": 1986.001,
+                            "confidence": [
+                              1986.001,
+                              1986.876
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 0.000941,
+                      "num_date": {
+                        "value": 1980.449,
+                        "confidence": [
+                          1978.436,
+                          1980.946
+                        ]
+                      },
+                      "host": {
+                        "value": "raccoon-dog",
+                        "confidence": {
+                          "raccoon-dog": 0.999,
+                          "dog": 0.00112
+                        },
+                        "entropy": 0.00875
+                      },
+                      "country": {
+                        "value": "Finland",
+                        "confidence": {
+                          "Finland": 1.0
+                        },
+                        "entropy": 0.00385
+                      },
+                      "confidence": {
+                        "value": 85.8
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G2020A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MN451695_Finland_CPV-2_1986_NA_Europe",
+                        "node_attrs": {
+                          "div": 0.00113,
+                          "num_date": {
+                            "value": 1986.001,
+                            "confidence": [
+                              1986.001,
+                              1986.886
+                            ]
+                          },
+                          "host": {
+                            "value": "raccoon-dog",
+                            "confidence": {
+                              "raccoon-dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "Finland",
+                            "confidence": {
+                              "Finland": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A1660G"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "MN451693_Finland_CPV-2_1980_NA_Europe",
+                        "node_attrs": {
+                          "div": 0.000941,
+                          "num_date": {
+                            "value": 1980.676,
+                            "confidence": [
+                              1980.001,
+                              1980.999
+                            ]
+                          },
+                          "host": {
+                            "value": "raccoon-dog",
+                            "confidence": {
+                              "raccoon-dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "Finland",
+                            "confidence": {
+                              "Finland": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "MN451694_Finland_CPV-2_1980_NA_Europe",
+                        "node_attrs": {
+                          "div": 0.000941,
+                          "num_date": {
+                            "value": 1980.676,
+                            "confidence": [
+                              1980.001,
+                              1980.999
+                            ]
+                          },
+                          "host": {
+                            "value": "raccoon-dog",
+                            "confidence": {
+                              "raccoon-dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "Finland",
+                            "confidence": {
+                              "Finland": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000007",
+                    "node_attrs": {
+                      "div": 0.000941,
+                      "num_date": {
+                        "value": 1977.097,
+                        "confidence": [
+                          1975.462,
+                          1978.946
+                        ]
+                      },
+                      "host": {
+                        "value": "dog",
+                        "confidence": {
+                          "dog": 1.0
+                        },
+                        "entropy": 0.00142
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "USA": 1.0
+                        },
+                        "entropy": 0.00294
+                      },
+                      "confidence": {
+                        "value": 86.0
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G2197A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MN451655_USA_CPV-2_1978_NA_North-America",
+                        "node_attrs": {
+                          "div": 0.00113,
+                          "num_date": {
+                            "value": 1978.999,
+                            "confidence": [
+                              1978.142,
+                              1978.999
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "CPV-2"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T3277C"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 0.000941,
+                          "num_date": {
+                            "value": 1977.916,
+                            "confidence": [
+                              1976.389,
+                              1979.83
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 0.000949
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": 0.00277
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "div": 0.000941,
+                              "num_date": {
+                                "value": 1979.001,
+                                "confidence": [
+                                  1977.873,
+                                  1979.783
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000881
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": 0.00259
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "MN451654_USA_CPV-2_1979_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.000941,
+                                  "num_date": {
+                                    "value": 1979.477,
+                                    "confidence": [
+                                      1979.001,
+                                      1979.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "CPV-2"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "M38245_USA_CPV-2_1979_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.000941,
+                                  "num_date": {
+                                    "value": 1979.477,
+                                    "confidence": [
+                                      1979.001,
+                                      1979.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "CPV-2"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000010",
+                            "node_attrs": {
+                              "div": 0.000941,
+                              "num_date": {
+                                "value": 1978.649,
+                                "confidence": [
+                                  1977.289,
+                                  1979.855
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000909
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": 0.00268
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "MN451653_USA_CPV-2_1979_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.000941,
+                                  "num_date": {
+                                    "value": 1979.416,
+                                    "confidence": [
+                                      1979.001,
+                                      1979.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "CPV-2"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000011",
+                                "node_attrs": {
+                                  "div": 0.000941,
+                                  "num_date": {
+                                    "value": 1979.244,
+                                    "confidence": [
+                                      1977.66,
+                                      1980.741
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": 0.000942
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": 0.00278
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "MN451671_USA_CPV-2_1993_NA_North-America",
+                                    "node_attrs": {
+                                      "div": 0.000941,
+                                      "num_date": {
+                                        "value": 1993.001,
+                                        "confidence": [
+                                          1993.001,
+                                          1993.899
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "CPV-2"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000012",
+                                    "node_attrs": {
+                                      "div": 0.000941,
+                                      "num_date": {
+                                        "value": 1980.154,
+                                        "confidence": [
+                                          1978.815,
+                                          1980.843
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": 0.000907
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": 0.00267
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "EU659116_USA_CPV-2_1980_NA_North-America",
+                                        "node_attrs": {
+                                          "div": 0.000941,
+                                          "num_date": {
+                                            "value": 1980.672,
+                                            "confidence": [
+                                              1980.001,
+                                              1980.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "CPV-2"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000013",
+                                        "node_attrs": {
+                                          "div": 0.000941,
+                                          "num_date": {
+                                            "value": 1980.449,
+                                            "confidence": [
+                                              1979.42,
+                                              1980.946
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": 0.00088
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": 0.00258
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MN451668_USA_CPV-2_1980_NA_North-America",
+                                            "node_attrs": {
+                                              "div": 0.000941,
+                                              "num_date": {
+                                                "value": 1980.732,
+                                                "confidence": [
+                                                  1980.001,
+                                                  1980.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "CPV-2"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "EU659117_USA_CPV-2_1980_NA_North-America",
+                                            "node_attrs": {
+                                              "div": 0.000941,
+                                              "num_date": {
+                                                "value": 1980.732,
+                                                "confidence": [
+                                                  1980.001,
+                                                  1980.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "CPV-2"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 0.00151,
+                  "num_date": {
+                    "value": 1977.171,
+                    "confidence": [
+                      1972.356,
+                      1982.736
+                    ]
+                  },
+                  "host": {
+                    "value": "dog",
+                    "confidence": {
+                      "dog": 0.986,
+                      "raccoon-dog": 0.0135
+                    },
+                    "entropy": 0.0775
+                  },
+                  "country": {
+                    "value": "USA",
+                    "confidence": {
+                      "USA": 0.999
+                    },
+                    "entropy": 0.00723
+                  },
+                  "confidence": {
+                    "value": 97.0
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1648C",
+                      "A1902T",
+                      "A3044T",
+                      "T3087C",
+                      "C3684G"
+                    ],
+                    "polyprotein_NS1_NS2": [
+                      "Y544F"
+                    ],
+                    "unspecified_polyprotein": [
+                      "M254L",
+                      "I268T",
+                      "A467G"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "polyprotein_NS1_NS2: Y544F; unspecified_polyprotein: M254L, I268T, A467G"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "JN867618_USA_CPV-2a_2010_NA_North-America",
+                    "node_attrs": {
+                      "div": 0.00263,
+                      "num_date": {
+                        "value": 2010.001,
+                        "confidence": [
+                          2010.001,
+                          2010.89
+                        ]
+                      },
+                      "host": {
+                        "value": "raccoon-dog",
+                        "confidence": {
+                          "raccoon-dog": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "USA": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "clade": {
+                        "value": "UA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1988A",
+                          "G2018A",
+                          "T2325A",
+                          "G3046A",
+                          "T3480C",
+                          "G3684A"
+                        ],
+                        "polyprotein_NS1_NS2": [
+                          "G573S",
+                          "E583K"
+                        ],
+                        "unspecified_polyprotein": [
+                          "V14E",
+                          "I399T",
+                          "G467D"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "polyprotein_NS1_NS2: G573S, E583K; unspecified_polyprotein: V14E, I399T, G467D"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000015",
+                    "node_attrs": {
+                      "div": 0.00169,
+                      "num_date": {
+                        "value": 1980.48,
+                        "confidence": [
+                          1977.178,
+                          1982.552
+                        ]
+                      },
+                      "host": {
+                        "value": "dog",
+                        "confidence": {
+                          "dog": 1.0
+                        },
+                        "entropy": 1.38e-06
+                      },
+                      "country": {
+                        "value": "USA",
+                        "confidence": {
+                          "USA": 1.0
+                        },
+                        "entropy": 0.000142
+                      },
+                      "confidence": {
+                        "value": 75.2
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G3698T"
+                        ],
+                        "unspecified_polyprotein": [
+                          "D472Y"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "unspecified_polyprotein: D472Y"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "D26079_Japan_CPV-2a_1982_NA_Asia",
+                        "node_attrs": {
+                          "div": 0.00301,
+                          "num_date": {
+                            "value": 1982.999,
+                            "confidence": [
+                              1982.195,
+                              1982.999
+                            ]
+                          },
+                          "host": {
+                            "value": "ND",
+                            "confidence": {
+                              "ND": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "Japan",
+                            "confidence": {
+                              "Japan": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "UA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A592G",
+                              "A766G",
+                              "A933T",
+                              "A946G",
+                              "A2023G",
+                              "T3088A",
+                              "G4075A"
+                            ],
+                            "polyprotein_NS1_NS2": [
+                              "H221L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "polyprotein_NS1_NS2: H221L"
+                          }
+                        }
+                      },
+                      {
+                        "name": "MN451657_USA_CPV-2a_1983_NA_North-America",
+                        "node_attrs": {
+                          "div": 0.00226,
+                          "num_date": {
+                            "value": 1983.999,
+                            "confidence": [
+                              1983.108,
+                              1983.999
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "UA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T1237C",
+                              "A1246G",
+                              "A2551G"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000029",
+                        "node_attrs": {
+                          "div": 0.00188,
+                          "num_date": {
+                            "value": 1981.678,
+                            "confidence": [
+                              1978.741,
+                              1982.466
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 0.000854
+                          },
+                          "country": {
+                            "value": "Australia",
+                            "confidence": {
+                              "Australia": 0.979,
+                              "USA": 0.0188
+                            },
+                            "entropy": 0.113
+                          },
+                          "confidence": {
+                            "value": 77.1
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1985A"
+                            ],
+                            "polyprotein_NS1_NS2": [
+                              "E572K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "polyprotein_NS1_NS2: E572K"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "MN451669_Australia_CPV-2a_1982_NA_Oceania",
+                            "node_attrs": {
+                              "div": 0.00226,
+                              "num_date": {
+                                "value": 1982.999,
+                                "confidence": [
+                                  1982.169,
+                                  1982.999
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "Australia",
+                                "confidence": {
+                                  "Australia": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "UA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A2359G",
+                                  "A3166G"
+                                ],
+                                "unspecified_polyprotein": [
+                                  "I25M"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "unspecified_polyprotein: I25M"
+                              }
+                            }
+                          },
+                          {
+                            "name": "MN451670_Australia_CPV-2a_1985_NA_Oceania",
+                            "node_attrs": {
+                              "div": 0.00245,
+                              "num_date": {
+                                "value": 1985.999,
+                                "confidence": [
+                                  1985.107,
+                                  1985.999
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "Australia",
+                                "confidence": {
+                                  "Australia": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "UA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A2734T",
+                                  "A3424G",
+                                  "A5124G"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000025",
+                        "node_attrs": {
+                          "div": 0.00188,
+                          "num_date": {
+                            "value": 1981.605,
+                            "confidence": [
+                              1979.371,
+                              1983.422
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 0.00225
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 0.984,
+                              "Canada": 0.0122,
+                              "Italy": 0.00107
+                            },
+                            "entropy": 0.1
+                          },
+                          "confidence": {
+                            "value": 35.1
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1319A"
+                            ],
+                            "polyprotein_NS1_NS2": [
+                              "D350N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "polyprotein_NS1_NS2: D350N"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000026",
+                            "node_attrs": {
+                              "div": 0.00207,
+                              "num_date": {
+                                "value": 1982.746,
+                                "confidence": [
+                                  1981.513,
+                                  1983.607
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000924
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.999
+                                },
+                                "entropy": 0.00771
+                              },
+                              "confidence": {
+                                "value": 76.2
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G2194A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MN451661_USA_CPV-2a_1984_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.00207,
+                                  "num_date": {
+                                    "value": 1984.001,
+                                    "confidence": [
+                                      1984.001,
+                                      1984.87
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "MN451659_USA_CPV-2a_1983_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.00263,
+                                  "num_date": {
+                                    "value": 1983.999,
+                                    "confidence": [
+                                      1983.317,
+                                      1983.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G3031A",
+                                      "G3304A",
+                                      "G5221A"
+                                    ],
+                                    "ORFB": [
+                                      "V38I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "ORFB: V38I"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000027",
+                            "node_attrs": {
+                              "div": 0.00301,
+                              "num_date": {
+                                "value": 2017.001,
+                                "confidence": [
+                                  2009.444,
+                                  2017.946
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.00218
+                              },
+                              "country": {
+                                "value": "Canada",
+                                "confidence": {
+                                  "Canada": 0.99,
+                                  "USA": 0.00843
+                                },
+                                "entropy": 0.0678
+                              },
+                              "confidence": {
+                                "value": 99.0
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G436A",
+                                  "C580T",
+                                  "C934T",
+                                  "G1270A",
+                                  "C2428T",
+                                  "G3364A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "OM640099_Canada_CPV-2a_2018_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.00301,
+                                  "num_date": {
+                                    "value": 2018.001,
+                                    "confidence": [
+                                      2018.001,
+                                      2018.884
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "Canada",
+                                    "confidence": {
+                                      "Canada": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "OM640100_Canada_CPV-2a_2017_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.00301,
+                                  "num_date": {
+                                    "value": 2017.936,
+                                    "confidence": [
+                                      2017.001,
+                                      2017.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "Canada",
+                                    "confidence": {
+                                      "Canada": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000020",
+                        "node_attrs": {
+                          "div": 0.00169,
+                          "num_date": {
+                            "value": 1981.575,
+                            "confidence": [
+                              1979.059,
+                              1983.592
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 0.00088
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 0.997,
+                              "France": 0.00246
+                            },
+                            "entropy": 0.0256
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "MN451658_USA_CPV-2a_1983_NA_North-America",
+                            "node_attrs": {
+                              "div": 0.00188,
+                              "num_date": {
+                                "value": 1983.506,
+                                "confidence": [
+                                  1983.001,
+                                  1983.999
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "UA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G4294A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000021",
+                            "node_attrs": {
+                              "div": 0.00169,
+                              "num_date": {
+                                "value": 1982.551,
+                                "confidence": [
+                                  1981.369,
+                                  1983.52
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000914
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.918,
+                                  "France": 0.0687,
+                                  "Canada": 0.00533,
+                                  "China": 0.00384,
+                                  "Italy": 0.00159
+                                },
+                                "entropy": 0.346
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "MN451667_France_CPV-2a_1983_NA_Europe",
+                                "node_attrs": {
+                                  "div": 0.00188,
+                                  "num_date": {
+                                    "value": 1983.999,
+                                    "confidence": [
+                                      1983.139,
+                                      1983.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "France",
+                                    "confidence": {
+                                      "France": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A324G"
+                                    ],
+                                    "polyprotein_NS1_NS2": [
+                                      "K18R"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "polyprotein_NS1_NS2: K18R"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000022",
+                                "node_attrs": {
+                                  "div": 0.00169,
+                                  "num_date": {
+                                    "value": 1983.095,
+                                    "confidence": [
+                                      1982.004,
+                                      1983.843
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": 0.00117
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.937,
+                                      "France": 0.0232,
+                                      "Canada": 0.0186,
+                                      "China": 0.0152,
+                                      "Italy": 0.00197
+                                    },
+                                    "entropy": 0.329
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000023",
+                                    "node_attrs": {
+                                      "div": 0.00169,
+                                      "num_date": {
+                                        "value": 1983.123,
+                                        "confidence": [
+                                          1982.424,
+                                          1983.946
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": 0.000888
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.998
+                                        },
+                                        "entropy": 0.0211
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "MN451656_USA_CPV-2a_1983_NA_North-America",
+                                        "node_attrs": {
+                                          "div": 0.00169,
+                                          "num_date": {
+                                            "value": 1983.987,
+                                            "confidence": [
+                                              1983.001,
+                                              1983.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "MN451660_USA_CPV-2a_1983_NA_North-America",
+                                        "node_attrs": {
+                                          "div": 0.00169,
+                                          "num_date": {
+                                            "value": 1983.987,
+                                            "confidence": [
+                                              1983.001,
+                                              1983.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000028",
+                                    "node_attrs": {
+                                      "div": 0.00169,
+                                      "num_date": {
+                                        "value": 1999.831,
+                                        "confidence": [
+                                          1989.088,
+                                          2006.834
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": 0.0016
+                                      },
+                                      "country": {
+                                        "value": "China",
+                                        "confidence": {
+                                          "China": 0.331,
+                                          "Canada": 0.327,
+                                          "USA": 0.301,
+                                          "France": 0.0104,
+                                          "Italy": 0.00693,
+                                          "Germany": 0.00383,
+                                          "Australia": 0.0038,
+                                          "Finland": 0.00378,
+                                          "Japan": 0.00377,
+                                          "New-Zealand": 0.00275,
+                                          "Bulgaria": 0.00275,
+                                          "Czechia": 0.00275
+                                        },
+                                        "entropy": 1.308
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "MG763189_China_CPV-2a_2014_NA_Asia",
+                                        "node_attrs": {
+                                          "div": 0.00226,
+                                          "num_date": {
+                                            "value": 2014.001,
+                                            "confidence": [
+                                              2014.001,
+                                              2014.895
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "China",
+                                            "confidence": {
+                                              "China": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T2815C",
+                                              "T3088C",
+                                              "G3683A"
+                                            ],
+                                            "unspecified_polyprotein": [
+                                              "G467S"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "unspecified_polyprotein: G467S"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000024",
+                                        "node_attrs": {
+                                          "div": 0.00245,
+                                          "num_date": {
+                                            "value": 2018.001,
+                                            "confidence": [
+                                              2011.183,
+                                              2018.401
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": 0.00119
+                                          },
+                                          "country": {
+                                            "value": "Canada",
+                                            "confidence": {
+                                              "Canada": 0.987,
+                                              "USA": 0.00586,
+                                              "China": 0.00522
+                                            },
+                                            "entropy": 0.0831
+                                          },
+                                          "confidence": {
+                                            "value": 95.0
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G436A",
+                                              "A1894G",
+                                              "G2929A",
+                                              "T4120C"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "OM640102_Canada_CPV-2a_2018_NA_North-America",
+                                            "node_attrs": {
+                                              "div": 0.00245,
+                                              "num_date": {
+                                                "value": 2018.197,
+                                                "confidence": [
+                                                  2018.001,
+                                                  2018.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Canada",
+                                                "confidence": {
+                                                  "Canada": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "OM640103_Canada_CPV-2a_2018_NA_North-America",
+                                            "node_attrs": {
+                                              "div": 0.00245,
+                                              "num_date": {
+                                                "value": 2018.197,
+                                                "confidence": [
+                                                  2018.001,
+                                                  2018.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Canada",
+                                                "confidence": {
+                                                  "Canada": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 0.00188,
+                          "num_date": {
+                            "value": 1982.765,
+                            "confidence": [
+                              1981.284,
+                              1984.194
+                            ]
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 3.57e-05
+                          },
+                          "country": {
+                            "value": "USA",
+                            "confidence": {
+                              "USA": 0.947,
+                              "Italy": 0.0365,
+                              "France": 0.0154
+                            },
+                            "entropy": 0.249
+                          },
+                          "confidence": {
+                            "value": 79.7
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A4061G"
+                            ],
+                            "unspecified_polyprotein": [
+                              "N593D"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "unspecified_polyprotein: N593D"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "MN451666_France_CPV-2b_1984_NA_Europe",
+                            "node_attrs": {
+                              "div": 0.00226,
+                              "num_date": {
+                                "value": 1984.999,
+                                "confidence": [
+                                  1984.125,
+                                  1984.999
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "France",
+                                "confidence": {
+                                  "France": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "UA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1807A",
+                                  "G2182A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 0.00188,
+                              "num_date": {
+                                "value": 1983.757,
+                                "confidence": [
+                                  1982.358,
+                                  1984.259
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000883
+                              },
+                              "country": {
+                                "value": "USA",
+                                "confidence": {
+                                  "USA": 0.98,
+                                  "Italy": 0.0188,
+                                  "France": 0.00105
+                                },
+                                "entropy": 0.107
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "MN451662_USA_CPV-2b_1984_NA_North-America",
+                                "node_attrs": {
+                                  "div": 0.00207,
+                                  "num_date": {
+                                    "value": 1984.999,
+                                    "confidence": [
+                                      1984.138,
+                                      1984.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1150C"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000032",
+                                "node_attrs": {
+                                  "div": 0.00188,
+                                  "num_date": {
+                                    "value": 1984.016,
+                                    "confidence": [
+                                      1983.387,
+                                      1984.911
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": 0.000989
+                                  },
+                                  "country": {
+                                    "value": "USA",
+                                    "confidence": {
+                                      "USA": 0.944,
+                                      "Italy": 0.0525
+                                    },
+                                    "entropy": 0.235
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "MF177226_Italy_CPV-2b_1999_Europe-II_Europe",
+                                    "node_attrs": {
+                                      "div": 0.00282,
+                                      "num_date": {
+                                        "value": 1999.001,
+                                        "confidence": [
+                                          1999.001,
+                                          1999.897
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "Italy",
+                                        "confidence": {
+                                          "Italy": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "UA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1319A",
+                                          "A1378G",
+                                          "A1555G",
+                                          "G1985A",
+                                          "T3289C"
+                                        ],
+                                        "polyprotein_NS1_NS2": [
+                                          "D350N",
+                                          "E572K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "polyprotein_NS1_NS2: D350N, E572K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "MN451663_USA_CPV-2b_1984_NA_North-America",
+                                    "node_attrs": {
+                                      "div": 0.00188,
+                                      "num_date": {
+                                        "value": 1984.876,
+                                        "confidence": [
+                                          1984.001,
+                                          1984.999
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "UA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000034",
+                            "node_attrs": {
+                              "div": 0.00207,
+                              "num_date": {
+                                "value": 1983.702,
+                                "confidence": [
+                                  1982.553,
+                                  1984.716
+                                ]
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 9.65e-05
+                              },
+                              "country": {
+                                "value": "Italy",
+                                "confidence": {
+                                  "Italy": 0.949,
+                                  "USA": 0.0431,
+                                  "Germany": 0.00768
+                                },
+                                "entropy": 0.228
+                              },
+                              "confidence": {
+                                "value": 53.4
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T3674G"
+                                ],
+                                "unspecified_polyprotein": [
+                                  "S464A"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "unspecified_polyprotein: S464A"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MF177232_Italy_CPV-2b_1998_Europe-II_Europe",
+                                "node_attrs": {
+                                  "div": 0.00452,
+                                  "num_date": {
+                                    "value": 1998.999,
+                                    "confidence": [
+                                      1998.115,
+                                      1998.999
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "Italy",
+                                    "confidence": {
+                                      "Italy": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "UA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1036G",
+                                      "A1858G",
+                                      "G2046A",
+                                      "C2147A",
+                                      "T2355A",
+                                      "G2769A",
+                                      "C2853T",
+                                      "G2932A",
+                                      "A3433G",
+                                      "G3908A",
+                                      "C3951A",
+                                      "T4038C",
+                                      "A5160G"
+                                    ],
+                                    "polyprotein_NS1_NS2": [
+                                      "S592N",
+                                      "Q626K"
+                                    ],
+                                    "unspecified_polyprotein": [
+                                      "L24*",
+                                      "R162K",
+                                      "S190F",
+                                      "D542N",
+                                      "T556N",
+                                      "I585T"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "polyprotein_NS1_NS2: S592N, Q626K; unspecified_polyprotein: L24*, R162K, S190F, D542N, T556N, I585T"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000036",
+                                "node_attrs": {
+                                  "div": 0.00226,
+                                  "num_date": {
+                                    "value": 1984.594,
+                                    "confidence": [
+                                      1983.535,
+                                      1986.51
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 0.999,
+                                      "ND": 0.0013
+                                    },
+                                    "entropy": 0.0105
+                                  },
+                                  "country": {
+                                    "value": "Italy",
+                                    "confidence": {
+                                      "Italy": 0.944,
+                                      "Germany": 0.0499,
+                                      "USA": 0.00556
+                                    },
+                                    "entropy": 0.242
+                                  },
+                                  "confidence": {
+                                    "value": 76.5
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1378G"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "MF177225_Italy_CPV-2b_1998_Europe-II_Europe",
+                                    "node_attrs": {
+                                      "div": 0.00452,
+                                      "num_date": {
+                                        "value": 1998.999,
+                                        "confidence": [
+                                          1998.118,
+                                          1998.999
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "Italy",
+                                        "confidence": {
+                                          "Italy": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "UA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T331C",
+                                          "C580T",
+                                          "G1319A",
+                                          "A1369G",
+                                          "T2061A",
+                                          "C2366T",
+                                          "G2932A",
+                                          "G3031A",
+                                          "T3505C",
+                                          "A3541G",
+                                          "T3638C",
+                                          "A5280G"
+                                        ],
+                                        "polyprotein_NS1_NS2": [
+                                          "D350N",
+                                          "L597Q"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "polyprotein_NS1_NS2: D350N, L597Q"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000037",
+                                    "node_attrs": {
+                                      "div": 0.00263,
+                                      "num_date": {
+                                        "value": 1987.116,
+                                        "confidence": [
+                                          1985.293,
+                                          1990.853
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 0.965,
+                                          "ND": 0.035
+                                        },
+                                        "entropy": 0.155
+                                      },
+                                      "country": {
+                                        "value": "Germany",
+                                        "confidence": {
+                                          "Germany": 0.512,
+                                          "Italy": 0.487
+                                        },
+                                        "entropy": 0.707
+                                      },
+                                      "confidence": {
+                                        "value": 88.5
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1324G",
+                                          "T3322C"
+                                        ],
+                                        "polyprotein_NS1_NS2": [
+                                          "N351K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "polyprotein_NS1_NS2: N351K"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "AY742934_Germany_CPV-2b_1995_NA_Europe",
+                                        "node_attrs": {
+                                          "div": 0.00357,
+                                          "num_date": {
+                                            "value": 1995.999,
+                                            "confidence": [
+                                              1995.11,
+                                              1995.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "ND",
+                                            "confidence": {
+                                              "ND": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "Germany",
+                                            "confidence": {
+                                              "Germany": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C1495T",
+                                              "C1648T",
+                                              "G1750A",
+                                              "T1902A",
+                                              "A4189G"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "F544Y"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: F544Y"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000038",
+                                        "node_attrs": {
+                                          "div": 0.00339,
+                                          "num_date": {
+                                            "value": 1994.784,
+                                            "confidence": [
+                                              1991.505,
+                                              1997.008
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 0.999,
+                                              "ND": 0.00119
+                                            },
+                                            "entropy": 0.00973
+                                          },
+                                          "country": {
+                                            "value": "Germany",
+                                            "confidence": {
+                                              "Germany": 0.508,
+                                              "Italy": 0.491
+                                            },
+                                            "entropy": 0.705
+                                          },
+                                          "confidence": {
+                                            "value": 93.6
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C1021T",
+                                              "C1411T",
+                                              "T2061C",
+                                              "A2172G"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "L597P",
+                                              "H634R"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: L597P, H634R"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MF177231_Italy_CPV-2a_2000_NA_Europe",
+                                            "node_attrs": {
+                                              "div": 0.00433,
+                                              "num_date": {
+                                                "value": 2000.999,
+                                                "confidence": [
+                                                  2000.115,
+                                                  2000.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Italy",
+                                                "confidence": {
+                                                  "Italy": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1187C",
+                                                  "A2153G",
+                                                  "C2527T",
+                                                  "G4061A",
+                                                  "A5268G"
+                                                ],
+                                                "polyprotein_NS1_NS2": [
+                                                  "N628D"
+                                                ],
+                                                "unspecified_polyprotein": [
+                                                  "D593N"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "polyprotein_NS1_NS2: N628D; unspecified_polyprotein: D593N"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "CPV2b-14906-633U97_Germany_CPV-2b_1997_NA_Europe",
+                                            "node_attrs": {
+                                              "div": 0.00357,
+                                              "num_date": {
+                                                "value": 1997.001,
+                                                "confidence": [
+                                                  1997.001,
+                                                  1997.895
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Germany",
+                                                "confidence": {
+                                                  "Germany": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G551T"
+                                                ],
+                                                "polyprotein_NS1_NS2": [
+                                                  "A94S"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "polyprotein_NS1_NS2: A94S"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000039",
+                                "node_attrs": {
+                                  "div": 0.00226,
+                                  "num_date": {
+                                    "value": 1984.449,
+                                    "confidence": [
+                                      1983.684,
+                                      1985.727
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "dog",
+                                    "confidence": {
+                                      "dog": 0.999
+                                    },
+                                    "entropy": 0.0118
+                                  },
+                                  "country": {
+                                    "value": "Italy",
+                                    "confidence": {
+                                      "Italy": 0.886,
+                                      "USA": 0.0661,
+                                      "Germany": 0.0259,
+                                      "New-Zealand": 0.014,
+                                      "Bulgaria": 0.00638
+                                    },
+                                    "entropy": 0.485
+                                  },
+                                  "confidence": {
+                                    "value": 78.1
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G4061A"
+                                    ],
+                                    "unspecified_polyprotein": [
+                                      "D593N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "unspecified_polyprotein: D593N"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "CPV2a-40510-B37_Bulgaria_CPV-2a_2010_NA_Europe",
+                                    "node_attrs": {
+                                      "div": 0.0049,
+                                      "num_date": {
+                                        "value": 2010.999,
+                                        "confidence": [
+                                          2010.105,
+                                          2010.999
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "Bulgaria",
+                                        "confidence": {
+                                          "Bulgaria": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "UA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A460C",
+                                          "A1246G",
+                                          "T1747C",
+                                          "G1750A",
+                                          "C1895A",
+                                          "G2018A",
+                                          "A2025G",
+                                          "G2194A",
+                                          "A2774G",
+                                          "T3496C",
+                                          "T3718C",
+                                          "T3817C",
+                                          "T3904C",
+                                          "A4078G"
+                                        ],
+                                        "polyprotein_NS1_NS2": [
+                                          "H542N",
+                                          "E583K",
+                                          "Q585R"
+                                        ],
+                                        "unspecified_polyprotein": [
+                                          "N164D"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "polyprotein_NS1_NS2: H542N, E583K, Q585R; unspecified_polyprotein: N164D"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "AY742933_New-Zealand_CPV-2a_1993_NA_Oceania",
+                                    "node_attrs": {
+                                      "div": 0.00339,
+                                      "num_date": {
+                                        "value": 1993.66,
+                                        "confidence": [
+                                          1993.001,
+                                          1993.999
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "ND",
+                                        "confidence": {
+                                          "ND": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "New-Zealand",
+                                        "confidence": {
+                                          "New-Zealand": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "UA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G1985A",
+                                          "G2044A",
+                                          "A2674G",
+                                          "A2821G",
+                                          "G3193A",
+                                          "T3277C"
+                                        ],
+                                        "polyprotein_NS1_NS2": [
+                                          "E572K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "polyprotein_NS1_NS2: E572K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000041",
+                                    "node_attrs": {
+                                      "div": 0.00282,
+                                      "num_date": {
+                                        "value": 1988.265,
+                                        "confidence": [
+                                          1985.464,
+                                          1991.964
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "raccoon-dog",
+                                        "confidence": {
+                                          "raccoon-dog": 0.934,
+                                          "dog": 0.0657
+                                        },
+                                        "entropy": 0.247
+                                      },
+                                      "country": {
+                                        "value": "USA",
+                                        "confidence": {
+                                          "USA": 0.915,
+                                          "Italy": 0.0764,
+                                          "Germany": 0.00259
+                                        },
+                                        "entropy": 0.335
+                                      },
+                                      "confidence": {
+                                        "value": 80.6
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G2419A",
+                                          "G3684A",
+                                          "T3698C"
+                                        ],
+                                        "unspecified_polyprotein": [
+                                          "G467D",
+                                          "Y472H"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "unspecified_polyprotein: G467D, Y472H"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "JN867614_USA_CPV-2a_2009_NA_North-America",
+                                        "node_attrs": {
+                                          "div": 0.00471,
+                                          "num_date": {
+                                            "value": 2009.434,
+                                            "confidence": [
+                                              2009.001,
+                                              2009.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "raccoon-dog",
+                                            "confidence": {
+                                              "raccoon-dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A313T",
+                                              "G2018A",
+                                              "A2023G",
+                                              "C2060T",
+                                              "T2650C",
+                                              "G2762A",
+                                              "T3793A",
+                                              "A3934G",
+                                              "C4076T",
+                                              "A4285G"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "E583K"
+                                            ],
+                                            "unspecified_polyprotein": [
+                                              "V160I"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: E583K; unspecified_polyprotein: V160I"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000042",
+                                        "node_attrs": {
+                                          "div": 0.00565,
+                                          "num_date": {
+                                            "value": 2005.655,
+                                            "confidence": [
+                                              2003.474,
+                                              2008.843
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "raccoon-dog",
+                                            "confidence": {
+                                              "raccoon-dog": 0.998,
+                                              "dog": 0.00167
+                                            },
+                                            "entropy": 0.0127
+                                          },
+                                          "country": {
+                                            "value": "USA",
+                                            "confidence": {
+                                              "USA": 0.997,
+                                              "Italy": 0.0025
+                                            },
+                                            "entropy": 0.0238
+                                          },
+                                          "confidence": {
+                                            "value": 99.9
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T667C",
+                                              "A1210G",
+                                              "G1319A",
+                                              "A1726G",
+                                              "T1747C",
+                                              "A1771G",
+                                              "A1894G",
+                                              "T2059C",
+                                              "G2221A",
+                                              "G2932A",
+                                              "A2965G",
+                                              "T3100C",
+                                              "G3370A",
+                                              "T3478C",
+                                              "C5181T"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "D350N"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: D350N"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "JN867616_USA_CPV-2a_2008_NA_North-America",
+                                            "node_attrs": {
+                                              "div": 0.00565,
+                                              "num_date": {
+                                                "value": 2008.001,
+                                                "confidence": [
+                                                  2008.001,
+                                                  2008.879
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "raccoon-dog",
+                                                "confidence": {
+                                                  "raccoon-dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000043",
+                                            "node_attrs": {
+                                              "div": 0.00584,
+                                              "num_date": {
+                                                "value": 2007.837,
+                                                "confidence": [
+                                                  2005.701,
+                                                  2008.796
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "raccoon-dog",
+                                                "confidence": {
+                                                  "raccoon-dog": 1.0
+                                                },
+                                                "entropy": 0.000926
+                                              },
+                                              "country": {
+                                                "value": "USA",
+                                                "confidence": {
+                                                  "USA": 1.0
+                                                },
+                                                "entropy": 0.00367
+                                              },
+                                              "confidence": {
+                                                "value": 78.8
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G4075A"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "JN867615_USA_CPV-2a_2009_NA_North-America",
+                                                "node_attrs": {
+                                                  "div": 0.00602,
+                                                  "num_date": {
+                                                    "value": 2009.676,
+                                                    "confidence": [
+                                                      2009.001,
+                                                      2009.999
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "raccoon-dog",
+                                                    "confidence": {
+                                                      "raccoon-dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "USA",
+                                                    "confidence": {
+                                                      "USA": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A3472G"
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "JN867617_USA_CPV-2a_2008_NA_North-America",
+                                                "node_attrs": {
+                                                  "div": 0.00602,
+                                                  "num_date": {
+                                                    "value": 2008.999,
+                                                    "confidence": [
+                                                      2008.145,
+                                                      2008.999
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "raccoon-dog",
+                                                    "confidence": {
+                                                      "raccoon-dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "USA",
+                                                    "confidence": {
+                                                      "USA": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A1680G"
+                                                    ],
+                                                    "polyprotein_NS1_NS2": [
+                                                      "K470R"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "polyprotein_NS1_NS2: K470R"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000045",
+                                    "node_attrs": {
+                                      "div": 0.00282,
+                                      "num_date": {
+                                        "value": 1987.269,
+                                        "confidence": [
+                                          1985.213,
+                                          1990.552
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "dog",
+                                        "confidence": {
+                                          "dog": 1.0
+                                        },
+                                        "entropy": 5.86e-05
+                                      },
+                                      "country": {
+                                        "value": "Italy",
+                                        "confidence": {
+                                          "Italy": 0.858,
+                                          "Germany": 0.141
+                                        },
+                                        "entropy": 0.416
+                                      },
+                                      "confidence": {
+                                        "value": 95.5
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A1690G",
+                                          "T3322C",
+                                          "A5268G"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "MF177224_Italy_CPV-2a_1997_NA_Europe",
+                                        "node_attrs": {
+                                          "div": 0.00395,
+                                          "num_date": {
+                                            "value": 1997.999,
+                                            "confidence": [
+                                              1997.105,
+                                              1997.999
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "Italy",
+                                            "confidence": {
+                                              "Italy": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "UA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A1378G",
+                                              "C1411T",
+                                              "T1588C",
+                                              "G2044A",
+                                              "T2061C",
+                                              "A4103G"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "L597P"
+                                            ],
+                                            "unspecified_polyprotein": [
+                                              "T607A"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: L597P; unspecified_polyprotein: T607A"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000046",
+                                        "node_attrs": {
+                                          "div": 0.0032,
+                                          "num_date": {
+                                            "value": 1992.878,
+                                            "confidence": [
+                                              1989.191,
+                                              1996.188
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": 0.00112
+                                          },
+                                          "country": {
+                                            "value": "Germany",
+                                            "confidence": {
+                                              "Germany": 0.855,
+                                              "Italy": 0.136,
+                                              "Czechia": 0.00728
+                                            },
+                                            "entropy": 0.461
+                                          },
+                                          "confidence": {
+                                            "value": 77.5
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G2194A",
+                                              "G2344A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "CPV2a-4709-3056_Germany_CPV-2a_2009_NA_Europe",
+                                            "node_attrs": {
+                                              "div": 0.00508,
+                                              "num_date": {
+                                                "value": 2009.999,
+                                                "confidence": [
+                                                  2009.107,
+                                                  2009.999
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Germany",
+                                                "confidence": {
+                                                  "Germany": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A439G",
+                                                  "A1174G",
+                                                  "G1690A",
+                                                  "G1816A",
+                                                  "A2023G",
+                                                  "C2075T",
+                                                  "G2769A",
+                                                  "A3217G",
+                                                  "T3755C",
+                                                  "A3756T"
+                                                ],
+                                                "polyprotein_NS1_NS2": [
+                                                  "P602S"
+                                                ],
+                                                "unspecified_polyprotein": [
+                                                  "R162K",
+                                                  "Y491L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "polyprotein_NS1_NS2: P602S; unspecified_polyprotein: R162K, Y491L"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000047",
+                                            "node_attrs": {
+                                              "div": 0.00339,
+                                              "num_date": {
+                                                "value": 1996.934,
+                                                "confidence": [
+                                                  1993.305,
+                                                  1998.442
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": 0.000941
+                                              },
+                                              "country": {
+                                                "value": "Germany",
+                                                "confidence": {
+                                                  "Germany": 0.897,
+                                                  "Italy": 0.0498,
+                                                  "Czechia": 0.0488
+                                                },
+                                                "entropy": 0.427
+                                              },
+                                              "confidence": {
+                                                "value": 75.5
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G2932A"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "CPV2a-5-11-1_Czechia_CPV-2a_2011_NA_Europe",
+                                                "node_attrs": {
+                                                  "div": 0.00339,
+                                                  "num_date": {
+                                                    "value": 2011.001,
+                                                    "confidence": [
+                                                      2011.001,
+                                                      2011.899
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "dog",
+                                                    "confidence": {
+                                                      "dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "Czechia",
+                                                    "confidence": {
+                                                      "Czechia": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "CPV2a-14906-39U99_Germany_CPV-2a_1999_NA_Europe",
+                                                "node_attrs": {
+                                                  "div": 0.00395,
+                                                  "num_date": {
+                                                    "value": 1999.999,
+                                                    "confidence": [
+                                                      1999.12,
+                                                      1999.999
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "dog",
+                                                    "confidence": {
+                                                      "dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "Germany",
+                                                    "confidence": {
+                                                      "Germany": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A2846G",
+                                                      "T4315C",
+                                                      "G5268A"
+                                                    ],
+                                                    "unspecified_polyprotein": [
+                                                      "T188A"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "unspecified_polyprotein: T188A"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000049",
+                                        "node_attrs": {
+                                          "div": 0.00376,
+                                          "num_date": {
+                                            "value": 1993.713,
+                                            "confidence": [
+                                              1991.543,
+                                              1995.54
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "dog",
+                                            "confidence": {
+                                              "dog": 1.0
+                                            },
+                                            "entropy": 0.00127
+                                          },
+                                          "country": {
+                                            "value": "Italy",
+                                            "confidence": {
+                                              "Italy": 0.753,
+                                              "Germany": 0.246
+                                            },
+                                            "entropy": 0.569
+                                          },
+                                          "confidence": {
+                                            "value": 98.3
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G1319A",
+                                              "C1495T",
+                                              "T1672A",
+                                              "A2021G",
+                                              "A2821G"
+                                            ],
+                                            "polyprotein_NS1_NS2": [
+                                              "D350N",
+                                              "T584A"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "polyprotein_NS1_NS2: D350N, T584A"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "CPV2a-14906-3705_Germany_CPV-2a_2005_NA_Europe",
+                                            "node_attrs": {
+                                              "div": 0.00376,
+                                              "num_date": {
+                                                "value": 2005.001,
+                                                "confidence": [
+                                                  2005.001,
+                                                  2005.892
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "country": {
+                                                "value": "Germany",
+                                                "confidence": {
+                                                  "Germany": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "UA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000050",
+                                            "node_attrs": {
+                                              "div": 0.00395,
+                                              "num_date": {
+                                                "value": 1994.995,
+                                                "confidence": [
+                                                  1993.561,
+                                                  1995.946
+                                                ]
+                                              },
+                                              "host": {
+                                                "value": "dog",
+                                                "confidence": {
+                                                  "dog": 0.999,
+                                                  "ND": 0.0013
+                                                },
+                                                "entropy": 0.0101
+                                              },
+                                              "country": {
+                                                "value": "Italy",
+                                                "confidence": {
+                                                  "Italy": 0.871,
+                                                  "Germany": 0.129
+                                                },
+                                                "entropy": 0.385
+                                              },
+                                              "confidence": {
+                                                "value": 83.1
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A364G"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "AY742935_Germany_CPV-2a_1995_NA_Europe",
+                                                "node_attrs": {
+                                                  "div": 0.00414,
+                                                  "num_date": {
+                                                    "value": 1995.999,
+                                                    "confidence": [
+                                                      1995.201,
+                                                      1995.999
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "ND",
+                                                    "confidence": {
+                                                      "ND": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "Germany",
+                                                    "confidence": {
+                                                      "Germany": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C1648T"
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "MF177233_Italy_CPV-2a_1999_NA_Europe",
+                                                "node_attrs": {
+                                                  "div": 0.00414,
+                                                  "num_date": {
+                                                    "value": 1999.001,
+                                                    "confidence": [
+                                                      1999.001,
+                                                      1999.885
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "dog",
+                                                    "confidence": {
+                                                      "dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "Italy",
+                                                    "confidence": {
+                                                      "Italy": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1582C"
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "KX434457_Italy_CPV-2a_2010_NA_Europe",
+                                                "node_attrs": {
+                                                  "div": 0.0047,
+                                                  "num_date": {
+                                                    "value": 2010.001,
+                                                    "confidence": [
+                                                      2010.001,
+                                                      2010.89
+                                                    ]
+                                                  },
+                                                  "host": {
+                                                    "value": "dog",
+                                                    "confidence": {
+                                                      "dog": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "Italy",
+                                                    "confidence": {
+                                                      "Italy": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "UA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T781C",
+                                                      "T1480C",
+                                                      "T2845G",
+                                                      "A3097G"
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Parvovirus SA1 clade analysis by WallauLab",
-    "updated": "2025-01-18",
+    "updated": "2025-01-22",
     "build_url": "in prep",
     "maintainers": [
       {
@@ -123,6 +123,10 @@
           [
             "public database",
             "#99FFFF"
+          ],
+          [
+            "this study",
+            "#FF9999"
           ]
         ]
       },
@@ -142,29 +146,29 @@
       {
         "key": "country",
         "demes": {
-          "Brazil": {
-            "latitude": -14.235,
-            "longitude": -51.9253
-          },
-          "Argentina": {
-            "latitude": -38.4161,
-            "longitude": -63.6167
-          },
           "Chile": {
             "latitude": -35.6751,
             "longitude": -71.543
           },
-          "Colombia": {
-            "latitude": 4.5709,
-            "longitude": -74.2973
+          "Brazil": {
+            "latitude": -14.235,
+            "longitude": -51.9253
           },
           "Uruguay": {
             "latitude": -32.5228,
             "longitude": -55.7658
           },
+          "Argentina": {
+            "latitude": -38.4161,
+            "longitude": -63.6167
+          },
           "Germany": {
             "latitude": 51.1657,
             "longitude": 10.4515
+          },
+          "Colombia": {
+            "latitude": 4.5709,
+            "longitude": -74.2973
           }
         }
       }
@@ -186,14 +190,6 @@
           1995.683
         ]
       },
-      "host": {
-        "value": "ND",
-        "confidence": {
-          "ND": 0.68,
-          "dog": 0.32
-        },
-        "entropy": 0.627
-      },
       "country": {
         "value": "Germany",
         "confidence": {
@@ -205,6 +201,14 @@
           "Chile": 0.00619
         },
         "entropy": 0.869
+      },
+      "host": {
+        "value": "ND",
+        "confidence": {
+          "ND": 0.68,
+          "dog": 0.32
+        },
+        "entropy": 0.627
       }
     },
     "branch_attrs": {
@@ -222,23 +226,23 @@
               1995.85
             ]
           },
+          "country": {
+            "value": "Germany",
+            "confidence": {
+              "Germany": 1.0
+            },
+            "entropy": -1e-12
+          },
           "source": {
             "value": "public database"
+          },
+          "clade": {
+            "value": "UA"
           },
           "host": {
             "value": "ND",
             "confidence": {
               "ND": 1.0
-            },
-            "entropy": -1e-12
-          },
-          "clade": {
-            "value": "UA"
-          },
-          "country": {
-            "value": "Germany",
-            "confidence": {
-              "Germany": 1.0
             },
             "entropy": -1e-12
           }
@@ -258,14 +262,6 @@
               1998.856
             ]
           },
-          "host": {
-            "value": "dog",
-            "confidence": {
-              "dog": 0.641,
-              "ND": 0.359
-            },
-            "entropy": 0.653
-          },
           "country": {
             "value": "Germany",
             "confidence": {
@@ -277,6 +273,14 @@
               "Chile": 0.0122
             },
             "entropy": 1.315
+          },
+          "host": {
+            "value": "dog",
+            "confidence": {
+              "dog": 0.641,
+              "ND": 0.359
+            },
+            "entropy": 0.653
           }
         },
         "branch_attrs": {
@@ -302,14 +306,6 @@
                   2013.909
                 ]
               },
-              "host": {
-                "value": "dog",
-                "confidence": {
-                  "dog": 0.623,
-                  "ND": 0.377
-                },
-                "entropy": 0.663
-              },
               "country": {
                 "value": "Germany",
                 "confidence": {
@@ -321,6 +317,14 @@
                   "Chile": 0.013
                 },
                 "entropy": 1.321
+              },
+              "host": {
+                "value": "dog",
+                "confidence": {
+                  "dog": 0.623,
+                  "ND": 0.377
+                },
+                "entropy": 0.663
               }
             },
             "branch_attrs": {
@@ -366,17 +370,6 @@
                   2002.128
                 ]
               },
-              "confidence": {
-                "value": 97.1
-              },
-              "host": {
-                "value": "dog",
-                "confidence": {
-                  "dog": 0.964,
-                  "ND": 0.0358
-                },
-                "entropy": 0.154
-              },
               "country": {
                 "value": "Uruguay",
                 "confidence": {
@@ -388,6 +381,17 @@
                   "Chile": 0.0179
                 },
                 "entropy": 1.507
+              },
+              "confidence": {
+                "value": 97.1
+              },
+              "host": {
+                "value": "dog",
+                "confidence": {
+                  "dog": 0.964,
+                  "ND": 0.0358
+                },
+                "entropy": 0.154
               }
             },
             "branch_attrs": {
@@ -421,23 +425,23 @@
                       2015.887
                     ]
                   },
+                  "country": {
+                    "value": "Brazil",
+                    "confidence": {
+                      "Brazil": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
                   "source": {
                     "value": "public database"
+                  },
+                  "clade": {
+                    "value": "SA1"
                   },
                   "host": {
                     "value": "dog",
                     "confidence": {
                       "dog": 1.0
-                    },
-                    "entropy": -1e-12
-                  },
-                  "clade": {
-                    "value": "SA1"
-                  },
-                  "country": {
-                    "value": "Brazil",
-                    "confidence": {
-                      "Brazil": 1.0
                     },
                     "entropy": -1e-12
                   }
@@ -486,17 +490,6 @@
                       2002.762
                     ]
                   },
-                  "confidence": {
-                    "value": 91.3
-                  },
-                  "host": {
-                    "value": "dog",
-                    "confidence": {
-                      "dog": 0.999,
-                      "ND": 0.00142
-                    },
-                    "entropy": 0.0108
-                  },
                   "country": {
                     "value": "Uruguay",
                     "confidence": {
@@ -508,6 +501,17 @@
                       "Chile": 0.0296
                     },
                     "entropy": 1.451
+                  },
+                  "confidence": {
+                    "value": 91.3
+                  },
+                  "host": {
+                    "value": "dog",
+                    "confidence": {
+                      "dog": 0.999,
+                      "ND": 0.00142
+                    },
+                    "entropy": 0.0108
                   }
                 },
                 "branch_attrs": {
@@ -538,23 +542,23 @@
                           2006.999
                         ]
                       },
+                      "country": {
+                        "value": "Uruguay",
+                        "confidence": {
+                          "Uruguay": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
                       "source": {
                         "value": "public database"
+                      },
+                      "clade": {
+                        "value": "SA1"
                       },
                       "host": {
                         "value": "dog",
                         "confidence": {
                           "dog": 1.0
-                        },
-                        "entropy": -1e-12
-                      },
-                      "clade": {
-                        "value": "SA1"
-                      },
-                      "country": {
-                        "value": "Uruguay",
-                        "confidence": {
-                          "Uruguay": 1.0
                         },
                         "entropy": -1e-12
                       }
@@ -596,16 +600,6 @@
                           2003.012
                         ]
                       },
-                      "confidence": {
-                        "value": 56.6
-                      },
-                      "host": {
-                        "value": "dog",
-                        "confidence": {
-                          "dog": 1.0
-                        },
-                        "entropy": 0.00157
-                      },
                       "country": {
                         "value": "Argentina",
                         "confidence": {
@@ -617,6 +611,16 @@
                           "Germany": 0.045
                         },
                         "entropy": 1.419
+                      },
+                      "confidence": {
+                        "value": 56.6
+                      },
+                      "host": {
+                        "value": "dog",
+                        "confidence": {
+                          "dog": 1.0
+                        },
+                        "entropy": 0.00157
                       }
                     },
                     "branch_attrs": {
@@ -638,16 +642,6 @@
                               2013.692
                             ]
                           },
-                          "confidence": {
-                            "value": 99.6
-                          },
-                          "host": {
-                            "value": "dog",
-                            "confidence": {
-                              "dog": 1.0
-                            },
-                            "entropy": 0.00107
-                          },
                           "country": {
                             "value": "Colombia",
                             "confidence": {
@@ -659,6 +653,16 @@
                               "Germany": 0.00833
                             },
                             "entropy": 1.146
+                          },
+                          "confidence": {
+                            "value": 99.6
+                          },
+                          "host": {
+                            "value": "dog",
+                            "confidence": {
+                              "dog": 1.0
+                            },
+                            "entropy": 0.00107
                           }
                         },
                         "branch_attrs": {
@@ -702,23 +706,23 @@
                                   2017.999
                                 ]
                               },
+                              "country": {
+                                "value": "Chile",
+                                "confidence": {
+                                  "Chile": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
                               "source": {
-                                "value": "public database"
+                                "value": "this study"
+                              },
+                              "clade": {
+                                "value": "SA1"
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
-                                },
-                                "entropy": -1e-12
-                              },
-                              "clade": {
-                                "value": "SA1"
-                              },
-                              "country": {
-                                "value": "Chile",
-                                "confidence": {
-                                  "Chile": 1.0
                                 },
                                 "entropy": -1e-12
                               }
@@ -762,23 +766,23 @@
                                   2015.877
                                 ]
                               },
+                              "country": {
+                                "value": "Colombia",
+                                "confidence": {
+                                  "Colombia": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
                               "source": {
-                                "value": "public database"
+                                "value": "this study"
+                              },
+                              "clade": {
+                                "value": "SA1"
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
-                                },
-                                "entropy": -1e-12
-                              },
-                              "clade": {
-                                "value": "SA1"
-                              },
-                              "country": {
-                                "value": "Colombia",
-                                "confidence": {
-                                  "Colombia": 1.0
                                 },
                                 "entropy": -1e-12
                               }
@@ -812,6 +816,14 @@
                               2003.253
                             ]
                           },
+                          "country": {
+                            "value": "Argentina",
+                            "confidence": {
+                              "Argentina": 0.967,
+                              "Brazil": 0.0323
+                            },
+                            "entropy": 0.15
+                          },
                           "confidence": {
                             "value": 76.4
                           },
@@ -821,14 +833,6 @@
                               "dog": 1.0
                             },
                             "entropy": 0.000603
-                          },
-                          "country": {
-                            "value": "Argentina",
-                            "confidence": {
-                              "Argentina": 0.967,
-                              "Brazil": 0.0323
-                            },
-                            "entropy": 0.15
                           }
                         },
                         "branch_attrs": {
@@ -856,23 +860,23 @@
                                   2009.881
                                 ]
                               },
+                              "country": {
+                                "value": "Argentina",
+                                "confidence": {
+                                  "Argentina": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
                               "source": {
                                 "value": "public database"
+                              },
+                              "clade": {
+                                "value": "SA1"
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
-                                },
-                                "entropy": -1e-12
-                              },
-                              "clade": {
-                                "value": "SA1"
-                              },
-                              "country": {
-                                "value": "Argentina",
-                                "confidence": {
-                                  "Argentina": 1.0
                                 },
                                 "entropy": -1e-12
                               }
@@ -901,16 +905,6 @@
                                   2003.416
                                 ]
                               },
-                              "confidence": {
-                                "value": 41.5
-                              },
-                              "host": {
-                                "value": "dog",
-                                "confidence": {
-                                  "dog": 1.0
-                                },
-                                "entropy": 0.000628
-                              },
                               "country": {
                                 "value": "Argentina",
                                 "confidence": {
@@ -918,6 +912,16 @@
                                   "Brazil": 0.0327
                                 },
                                 "entropy": 0.147
+                              },
+                              "confidence": {
+                                "value": 41.4
+                              },
+                              "host": {
+                                "value": "dog",
+                                "confidence": {
+                                  "dog": 1.0
+                                },
+                                "entropy": 0.000628
                               }
                             },
                             "branch_attrs": {
@@ -945,23 +949,23 @@
                                       2003.999
                                     ]
                                   },
+                                  "country": {
+                                    "value": "Argentina",
+                                    "confidence": {
+                                      "Argentina": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
                                   "source": {
                                     "value": "public database"
+                                  },
+                                  "clade": {
+                                    "value": "SA1"
                                   },
                                   "host": {
                                     "value": "dog",
                                     "confidence": {
                                       "dog": 1.0
-                                    },
-                                    "entropy": -1e-12
-                                  },
-                                  "clade": {
-                                    "value": "SA1"
-                                  },
-                                  "country": {
-                                    "value": "Argentina",
-                                    "confidence": {
-                                      "Argentina": 1.0
                                     },
                                     "entropy": -1e-12
                                   }
@@ -997,6 +1001,13 @@
                                       2012.151
                                     ]
                                   },
+                                  "country": {
+                                    "value": "Brazil",
+                                    "confidence": {
+                                      "Brazil": 1.0
+                                    },
+                                    "entropy": 4.06e-06
+                                  },
                                   "confidence": {
                                     "value": 99.5
                                   },
@@ -1006,13 +1017,6 @@
                                       "dog": 1.0
                                     },
                                     "entropy": 4.03e-05
-                                  },
-                                  "country": {
-                                    "value": "Brazil",
-                                    "confidence": {
-                                      "Brazil": 1.0
-                                    },
-                                    "entropy": 4.06e-06
                                   }
                                 },
                                 "branch_attrs": {
@@ -1052,23 +1056,23 @@
                                           2013.868
                                         ]
                                       },
+                                      "country": {
+                                        "value": "Brazil",
+                                        "confidence": {
+                                          "Brazil": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
                                       "source": {
                                         "value": "public database"
+                                      },
+                                      "clade": {
+                                        "value": "SA1"
                                       },
                                       "host": {
                                         "value": "dog",
                                         "confidence": {
                                           "dog": 1.0
-                                        },
-                                        "entropy": -1e-12
-                                      },
-                                      "clade": {
-                                        "value": "SA1"
-                                      },
-                                      "country": {
-                                        "value": "Brazil",
-                                        "confidence": {
-                                          "Brazil": 1.0
                                         },
                                         "entropy": -1e-12
                                       }
@@ -1099,6 +1103,13 @@
                                           2012.595
                                         ]
                                       },
+                                      "country": {
+                                        "value": "Brazil",
+                                        "confidence": {
+                                          "Brazil": 1.0
+                                        },
+                                        "entropy": 2.19e-08
+                                      },
                                       "confidence": {
                                         "value": 88.8
                                       },
@@ -1108,13 +1119,6 @@
                                           "dog": 1.0
                                         },
                                         "entropy": 0.000335
-                                      },
-                                      "country": {
-                                        "value": "Brazil",
-                                        "confidence": {
-                                          "Brazil": 1.0
-                                        },
-                                        "entropy": 2.19e-08
                                       }
                                     },
                                     "branch_attrs": {
@@ -1143,23 +1147,23 @@
                                               2013.999
                                             ]
                                           },
+                                          "country": {
+                                            "value": "Brazil",
+                                            "confidence": {
+                                              "Brazil": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
                                           "source": {
                                             "value": "public database"
+                                          },
+                                          "clade": {
+                                            "value": "SA1"
                                           },
                                           "host": {
                                             "value": "dog",
                                             "confidence": {
                                               "dog": 1.0
-                                            },
-                                            "entropy": -1e-12
-                                          },
-                                          "clade": {
-                                            "value": "SA1"
-                                          },
-                                          "country": {
-                                            "value": "Brazil",
-                                            "confidence": {
-                                              "Brazil": 1.0
                                             },
                                             "entropy": -1e-12
                                           }
@@ -1185,23 +1189,23 @@
                                               2013.999
                                             ]
                                           },
+                                          "country": {
+                                            "value": "Brazil",
+                                            "confidence": {
+                                              "Brazil": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
                                           "source": {
-                                            "value": "public database"
+                                            "value": "this study"
+                                          },
+                                          "clade": {
+                                            "value": "SA1"
                                           },
                                           "host": {
                                             "value": "dog",
                                             "confidence": {
                                               "dog": 1.0
-                                            },
-                                            "entropy": -1e-12
-                                          },
-                                          "clade": {
-                                            "value": "SA1"
-                                          },
-                                          "country": {
-                                            "value": "Brazil",
-                                            "confidence": {
-                                              "Brazil": 1.0
                                             },
                                             "entropy": -1e-12
                                           }
@@ -1232,6 +1236,13 @@
                                           2019.23
                                         ]
                                       },
+                                      "country": {
+                                        "value": "Brazil",
+                                        "confidence": {
+                                          "Brazil": 1.0
+                                        },
+                                        "entropy": 3.29e-08
+                                      },
                                       "confidence": {
                                         "value": 99.5
                                       },
@@ -1241,13 +1252,6 @@
                                           "dog": 1.0
                                         },
                                         "entropy": 0.000537
-                                      },
-                                      "country": {
-                                        "value": "Brazil",
-                                        "confidence": {
-                                          "Brazil": 1.0
-                                        },
-                                        "entropy": 3.29e-08
                                       }
                                     },
                                     "branch_attrs": {
@@ -1281,23 +1285,23 @@
                                               2019.851
                                             ]
                                           },
+                                          "country": {
+                                            "value": "Brazil",
+                                            "confidence": {
+                                              "Brazil": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
                                           "source": {
                                             "value": "public database"
+                                          },
+                                          "clade": {
+                                            "value": "SA1"
                                           },
                                           "host": {
                                             "value": "dog",
                                             "confidence": {
                                               "dog": 1.0
-                                            },
-                                            "entropy": -1e-12
-                                          },
-                                          "clade": {
-                                            "value": "SA1"
-                                          },
-                                          "country": {
-                                            "value": "Brazil",
-                                            "confidence": {
-                                              "Brazil": 1.0
                                             },
                                             "entropy": -1e-12
                                           }
@@ -1317,6 +1321,13 @@
                                               2019.606
                                             ]
                                           },
+                                          "country": {
+                                            "value": "Brazil",
+                                            "confidence": {
+                                              "Brazil": 1.0
+                                            },
+                                            "entropy": -9.93e-13
+                                          },
                                           "confidence": {
                                             "value": 74.8
                                           },
@@ -1326,13 +1337,6 @@
                                               "dog": 1.0
                                             },
                                             "entropy": 4.95e-07
-                                          },
-                                          "country": {
-                                            "value": "Brazil",
-                                            "confidence": {
-                                              "Brazil": 1.0
-                                            },
-                                            "entropy": -9.93e-13
                                           }
                                         },
                                         "branch_attrs": {
@@ -1360,23 +1364,23 @@
                                                   2019.999
                                                 ]
                                               },
+                                              "country": {
+                                                "value": "Brazil",
+                                                "confidence": {
+                                                  "Brazil": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
                                               "source": {
                                                 "value": "public database"
+                                              },
+                                              "clade": {
+                                                "value": "SA1"
                                               },
                                               "host": {
                                                 "value": "dog",
                                                 "confidence": {
                                                   "dog": 1.0
-                                                },
-                                                "entropy": -1e-12
-                                              },
-                                              "clade": {
-                                                "value": "SA1"
-                                              },
-                                              "country": {
-                                                "value": "Brazil",
-                                                "confidence": {
-                                                  "Brazil": 1.0
                                                 },
                                                 "entropy": -1e-12
                                               }
@@ -1396,23 +1400,23 @@
                                                   2019.999
                                                 ]
                                               },
+                                              "country": {
+                                                "value": "Brazil",
+                                                "confidence": {
+                                                  "Brazil": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
                                               "source": {
                                                 "value": "public database"
+                                              },
+                                              "clade": {
+                                                "value": "SA1"
                                               },
                                               "host": {
                                                 "value": "dog",
                                                 "confidence": {
                                                   "dog": 1.0
-                                                },
-                                                "entropy": -1e-12
-                                              },
-                                              "clade": {
-                                                "value": "SA1"
-                                              },
-                                              "country": {
-                                                "value": "Brazil",
-                                                "confidence": {
-                                                  "Brazil": 1.0
                                                 },
                                                 "entropy": -1e-12
                                               }
@@ -1432,23 +1436,23 @@
                                                   2019.999
                                                 ]
                                               },
+                                              "country": {
+                                                "value": "Brazil",
+                                                "confidence": {
+                                                  "Brazil": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
                                               "source": {
                                                 "value": "public database"
+                                              },
+                                              "clade": {
+                                                "value": "SA1"
                                               },
                                               "host": {
                                                 "value": "dog",
                                                 "confidence": {
                                                   "dog": 1.0
-                                                },
-                                                "entropy": -1e-12
-                                              },
-                                              "clade": {
-                                                "value": "SA1"
-                                              },
-                                              "country": {
-                                                "value": "Brazil",
-                                                "confidence": {
-                                                  "Brazil": 1.0
                                                 },
                                                 "entropy": -1e-12
                                               }
@@ -1468,23 +1472,23 @@
                                                   2019.999
                                                 ]
                                               },
+                                              "country": {
+                                                "value": "Brazil",
+                                                "confidence": {
+                                                  "Brazil": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
                                               "source": {
                                                 "value": "public database"
+                                              },
+                                              "clade": {
+                                                "value": "SA1"
                                               },
                                               "host": {
                                                 "value": "dog",
                                                 "confidence": {
                                                   "dog": 1.0
-                                                },
-                                                "entropy": -1e-12
-                                              },
-                                              "clade": {
-                                                "value": "SA1"
-                                              },
-                                              "country": {
-                                                "value": "Brazil",
-                                                "confidence": {
-                                                  "Brazil": 1.0
                                                 },
                                                 "entropy": -1e-12
                                               }

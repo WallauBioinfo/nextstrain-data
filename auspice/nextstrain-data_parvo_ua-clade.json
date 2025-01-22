@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Parvovirus UA clade analysis by WallauLab",
-    "updated": "2025-01-18",
+    "updated": "2025-01-22",
     "build_url": "in prep",
     "maintainers": [
       {
@@ -174,25 +174,25 @@
       {
         "key": "country",
         "demes": {
-          "Finland": {
-            "latitude": 61.9241,
-            "longitude": 25.7482
+          "New-Zealand": {
+            "latitude": -40.9006,
+            "longitude": 174.886
           },
-          "Japan": {
-            "latitude": 36.2048,
-            "longitude": 138.2529
+          "Italy": {
+            "latitude": 41.8719,
+            "longitude": 12.5674
           },
           "USA": {
             "latitude": 37.0902,
             "longitude": -95.7129
           },
-          "Germany": {
-            "latitude": 51.1657,
-            "longitude": 10.4515
-          },
           "France": {
             "latitude": 46.6034,
             "longitude": 1.8883
+          },
+          "Japan": {
+            "latitude": 36.2048,
+            "longitude": 138.2529
           },
           "China": {
             "latitude": 35.8617,
@@ -202,14 +202,6 @@
             "latitude": 49.8175,
             "longitude": 15.473
           },
-          "Australia": {
-            "latitude": -25.2744,
-            "longitude": 133.7751
-          },
-          "Italy": {
-            "latitude": 41.8719,
-            "longitude": 12.5674
-          },
           "Bulgaria": {
             "latitude": 42.7339,
             "longitude": 25.4858
@@ -218,9 +210,17 @@
             "latitude": 56.1304,
             "longitude": -106.3468
           },
-          "New-Zealand": {
-            "latitude": -40.9006,
-            "longitude": 174.886
+          "Australia": {
+            "latitude": -25.2744,
+            "longitude": 133.7751
+          },
+          "Germany": {
+            "latitude": 51.1657,
+            "longitude": 10.4515
+          },
+          "Finland": {
+            "latitude": 61.9241,
+            "longitude": 25.7482
           }
         }
       }
@@ -236,34 +236,34 @@
     "node_attrs": {
       "div": 0,
       "num_date": {
-        "value": 1966.931,
+        "value": 1966.494,
         "confidence": [
-          1956.863,
-          1977.58
+          1955.211,
+          1976.658
         ]
       },
       "host": {
         "value": "dog",
         "confidence": {
           "dog": 0.994,
-          "ND": 0.00321,
-          "raccoon-dog": 0.00274
+          "ND": 0.0032,
+          "raccoon-dog": 0.0027
         },
-        "entropy": 0.0405
+        "entropy": 0.0403
       },
       "country": {
         "value": "USA",
         "confidence": {
           "USA": 0.984,
-          "Italy": 0.00359,
-          "France": 0.00229,
+          "Italy": 0.00358,
+          "France": 0.00228,
           "Canada": 0.00211,
           "Finland": 0.00126,
           "Australia": 0.00125,
           "Japan": 0.00123,
-          "China": 0.00116
+          "China": 0.00115
         },
-        "entropy": 0.117
+        "entropy": 0.116
       }
     },
     "branch_attrs": {
@@ -281,8 +281,8 @@
               1978.899
             ]
           },
-          "source": {
-            "value": "public database"
+          "clade": {
+            "value": "CPV-2"
           },
           "host": {
             "value": "dog",
@@ -298,8 +298,8 @@
             },
             "entropy": -1e-12
           },
-          "clade": {
-            "value": "CPV-2"
+          "source": {
+            "value": "public database"
           }
         },
         "branch_attrs": {
@@ -311,29 +311,29 @@
         "node_attrs": {
           "div": 2.96e-17,
           "num_date": {
-            "value": 1968.258,
+            "value": 1967.827,
             "confidence": [
-              1958.798,
-              1976.848
+              1958.215,
+              1977.153
             ]
           },
           "host": {
             "value": "dog",
             "confidence": {
               "dog": 0.993,
-              "raccoon-dog": 0.00347,
-              "ND": 0.00329
+              "raccoon-dog": 0.00341,
+              "ND": 0.00328
             },
-            "entropy": 0.0452
+            "entropy": 0.0448
           },
           "country": {
             "value": "USA",
             "confidence": {
               "USA": 0.984,
-              "Italy": 0.00368,
-              "France": 0.00234,
-              "Canada": 0.00216,
-              "Finland": 0.00131,
+              "Italy": 0.00367,
+              "France": 0.00233,
+              "Canada": 0.00215,
+              "Finland": 0.0013,
               "Australia": 0.00127,
               "Japan": 0.00125,
               "China": 0.00117
@@ -350,10 +350,10 @@
             "node_attrs": {
               "div": 5.92e-17,
               "num_date": {
-                "value": 1969.901,
+                "value": 1969.539,
                 "confidence": [
-                  1961.22,
-                  1978.899
+                  1960.68,
+                  1978.739
                 ]
               },
               "host": {
@@ -361,19 +361,19 @@
                 "confidence": {
                   "dog": 0.918,
                   "ND": 0.0461,
-                  "raccoon-dog": 0.0359
+                  "raccoon-dog": 0.0358
                 },
                 "entropy": 0.34
               },
               "country": {
                 "value": "USA",
                 "confidence": {
-                  "USA": 0.784,
+                  "USA": 0.785,
                   "Italy": 0.0344,
-                  "France": 0.0261,
+                  "France": 0.026,
                   "Canada": 0.0253,
                   "Australia": 0.0184,
-                  "Finland": 0.0184,
+                  "Finland": 0.0183,
                   "Japan": 0.0182,
                   "Germany": 0.0181,
                   "China": 0.0178,
@@ -381,7 +381,7 @@
                   "Bulgaria": 0.013,
                   "Czechia": 0.013
                 },
-                "entropy": 1.028
+                "entropy": 1.027
               }
             },
             "branch_attrs": {
@@ -393,19 +393,22 @@
             "node_attrs": {
               "div": 0.000564,
               "num_date": {
-                "value": 1975.088,
+                "value": 1974.434,
                 "confidence": [
-                  1968.322,
-                  1977.526
+                  1967.295,
+                  1977.784
                 ]
+              },
+              "confidence": {
+                "value": 91.6
               },
               "host": {
                 "value": "dog",
                 "confidence": {
                   "dog": 0.998,
-                  "raccoon-dog": 0.0022
+                  "raccoon-dog": 0.00211
                 },
-                "entropy": 0.018
+                "entropy": 0.0174
               },
               "country": {
                 "value": "USA",
@@ -413,9 +416,6 @@
                   "USA": 0.999
                 },
                 "entropy": 0.00963
-              },
-              "confidence": {
-                "value": 91.6
               }
             },
             "branch_attrs": {
@@ -439,29 +439,29 @@
                 "node_attrs": {
                   "div": 0.000752,
                   "num_date": {
-                    "value": 1974.942,
+                    "value": 1977.042,
                     "confidence": [
-                      1971.838,
-                      1978.843
+                      1974.595,
+                      1978.498
                     ]
+                  },
+                  "confidence": {
+                    "value": 73.9
                   },
                   "host": {
                     "value": "dog",
                     "confidence": {
                       "dog": 0.998,
-                      "raccoon-dog": 0.00187
+                      "raccoon-dog": 0.00182
                     },
-                    "entropy": 0.0139
+                    "entropy": 0.0136
                   },
                   "country": {
                     "value": "USA",
                     "confidence": {
                       "USA": 0.999
                     },
-                    "entropy": 0.00879
-                  },
-                  "confidence": {
-                    "value": 74.0
+                    "entropy": 0.00877
                   }
                 },
                 "branch_attrs": {
@@ -485,26 +485,26 @@
                       "num_date": {
                         "value": 1983.653,
                         "confidence": [
-                          1981.995,
-                          1985.323
+                          1981.941,
+                          1985.33
                         ]
+                      },
+                      "confidence": {
+                        "value": 83.3
                       },
                       "host": {
                         "value": "dog",
                         "confidence": {
                           "dog": 1.0
                         },
-                        "entropy": 0.00139
+                        "entropy": 0.00137
                       },
                       "country": {
                         "value": "USA",
                         "confidence": {
                           "USA": 1.0
                         },
-                        "entropy": 0.00284
-                      },
-                      "confidence": {
-                        "value": 83.3
+                        "entropy": 0.00283
                       }
                     },
                     "branch_attrs": {
@@ -523,12 +523,12 @@
                           "num_date": {
                             "value": 1985.999,
                             "confidence": [
-                              1985.151,
+                              1985.144,
                               1985.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "dog",
@@ -544,8 +544,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -574,11 +574,11 @@
                             "value": 1986.001,
                             "confidence": [
                               1986.001,
-                              1986.872
+                              1986.873
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "dog",
@@ -594,8 +594,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -611,9 +611,12 @@
                       "num_date": {
                         "value": 1980.375,
                         "confidence": [
-                          1978.628,
+                          1978.549,
                           1980.946
                         ]
+                      },
+                      "confidence": {
+                        "value": 85.8
                       },
                       "host": {
                         "value": "raccoon-dog",
@@ -621,17 +624,14 @@
                           "raccoon-dog": 0.999,
                           "dog": 0.00112
                         },
-                        "entropy": 0.00879
+                        "entropy": 0.00877
                       },
                       "country": {
                         "value": "Finland",
                         "confidence": {
                           "Finland": 1.0
                         },
-                        "entropy": 0.00384
-                      },
-                      "confidence": {
-                        "value": 85.7
+                        "entropy": 0.00383
                       }
                     },
                     "branch_attrs": {
@@ -650,11 +650,11 @@
                             "value": 1986.001,
                             "confidence": [
                               1986.001,
-                              1986.889
+                              1986.887
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "raccoon-dog",
@@ -670,8 +670,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -687,14 +687,14 @@
                         "node_attrs": {
                           "div": 0.000941,
                           "num_date": {
-                            "value": 1980.62,
+                            "value": 1980.661,
                             "confidence": [
                               1980.001,
                               1980.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "raccoon-dog",
@@ -710,8 +710,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -723,14 +723,14 @@
                         "node_attrs": {
                           "div": 0.000941,
                           "num_date": {
-                            "value": 1980.62,
+                            "value": 1980.661,
                             "confidence": [
                               1980.001,
                               1980.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "raccoon-dog",
@@ -746,8 +746,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -763,26 +763,26 @@
                       "num_date": {
                         "value": 1977.444,
                         "confidence": [
-                          1975.652,
-                          1978.946
+                          1975.85,
+                          1978.84
                         ]
+                      },
+                      "confidence": {
+                        "value": 87.1
                       },
                       "host": {
                         "value": "dog",
                         "confidence": {
                           "dog": 1.0
                         },
-                        "entropy": 0.00143
+                        "entropy": 0.00141
                       },
                       "country": {
                         "value": "USA",
                         "confidence": {
                           "USA": 1.0
                         },
-                        "entropy": 0.00294
-                      },
-                      "confidence": {
-                        "value": 86.8
+                        "entropy": 0.00293
                       }
                     },
                     "branch_attrs": {
@@ -804,8 +804,8 @@
                               1978.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "CPV-2"
                           },
                           "host": {
                             "value": "dog",
@@ -821,8 +821,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "CPV-2"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -838,10 +838,10 @@
                         "node_attrs": {
                           "div": 0.000941,
                           "num_date": {
-                            "value": 1978.402,
+                            "value": 1977.915,
                             "confidence": [
-                              1976.807,
-                              1979.336
+                              1976.386,
+                              1979.826
                             ]
                           },
                           "host": {
@@ -849,14 +849,14 @@
                             "confidence": {
                               "dog": 1.0
                             },
-                            "entropy": 0.00095
+                            "entropy": 0.000946
                           },
                           "country": {
                             "value": "USA",
                             "confidence": {
                               "USA": 1.0
                             },
-                            "entropy": 0.00278
+                            "entropy": 0.00277
                           }
                         },
                         "branch_attrs": {
@@ -870,8 +870,8 @@
                               "num_date": {
                                 "value": 1979.001,
                                 "confidence": [
-                                  1978.098,
-                                  1979.534
+                                  1977.85,
+                                  1979.752
                                 ]
                               },
                               "host": {
@@ -879,14 +879,14 @@
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.000881
+                                "entropy": 0.000878
                               },
                               "country": {
                                 "value": "USA",
                                 "confidence": {
                                   "USA": 1.0
                                 },
-                                "entropy": 0.00259
+                                "entropy": 0.00258
                               }
                             },
                             "branch_attrs": {
@@ -898,14 +898,14 @@
                                 "node_attrs": {
                                   "div": 0.000941,
                                   "num_date": {
-                                    "value": 1979.437,
+                                    "value": 1979.372,
                                     "confidence": [
                                       1979.001,
                                       1979.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "CPV-2"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -921,8 +921,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "CPV-2"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -934,14 +934,14 @@
                                 "node_attrs": {
                                   "div": 0.000941,
                                   "num_date": {
-                                    "value": 1979.437,
+                                    "value": 1979.372,
                                     "confidence": [
                                       1979.001,
                                       1979.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "CPV-2"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -957,8 +957,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "CPV-2"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -972,10 +972,10 @@
                             "node_attrs": {
                               "div": 0.000941,
                               "num_date": {
-                                "value": 1978.729,
+                                "value": 1978.659,
                                 "confidence": [
-                                  1977.705,
-                                  1979.848
+                                  1977.384,
+                                  1979.878
                                 ]
                               },
                               "host": {
@@ -983,14 +983,14 @@
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.000909
+                                "entropy": 0.000906
                               },
                               "country": {
                                 "value": "USA",
                                 "confidence": {
                                   "USA": 1.0
                                 },
-                                "entropy": 0.00269
+                                "entropy": 0.00268
                               }
                             },
                             "branch_attrs": {
@@ -1002,14 +1002,14 @@
                                 "node_attrs": {
                                   "div": 0.000941,
                                   "num_date": {
-                                    "value": 1979.207,
+                                    "value": 1979.355,
                                     "confidence": [
                                       1979.001,
                                       1979.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "CPV-2"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -1025,8 +1025,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "CPV-2"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1038,9 +1038,9 @@
                                 "node_attrs": {
                                   "div": 0.000941,
                                   "num_date": {
-                                    "value": 1979.222,
+                                    "value": 1979.278,
                                     "confidence": [
-                                      1977.953,
+                                      1977.708,
                                       1980.741
                                     ]
                                   },
@@ -1049,14 +1049,14 @@
                                     "confidence": {
                                       "dog": 1.0
                                     },
-                                    "entropy": 0.000943
+                                    "entropy": 0.000936
                                   },
                                   "country": {
                                     "value": "USA",
                                     "confidence": {
                                       "USA": 1.0
                                     },
-                                    "entropy": 0.00279
+                                    "entropy": 0.00277
                                   }
                                 },
                                 "branch_attrs": {
@@ -1074,8 +1074,8 @@
                                           1993.899
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "CPV-2"
                                       },
                                       "host": {
                                         "value": "dog",
@@ -1091,8 +1091,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "CPV-2"
+                                      "source": {
+                                        "value": "public database"
                                       }
                                     },
                                     "branch_attrs": {
@@ -1104,9 +1104,9 @@
                                     "node_attrs": {
                                       "div": 0.000941,
                                       "num_date": {
-                                        "value": 1980.375,
+                                        "value": 1980.108,
                                         "confidence": [
-                                          1978.92,
+                                          1978.807,
                                           1980.843
                                         ]
                                       },
@@ -1115,14 +1115,14 @@
                                         "confidence": {
                                           "dog": 1.0
                                         },
-                                        "entropy": 0.000907
+                                        "entropy": 0.000904
                                       },
                                       "country": {
                                         "value": "USA",
                                         "confidence": {
                                           "USA": 1.0
                                         },
-                                        "entropy": 0.00268
+                                        "entropy": 0.00267
                                       }
                                     },
                                     "branch_attrs": {
@@ -1130,7 +1130,7 @@
                                     },
                                     "children": [
                                       {
-                                        "name": "MN451668_USA_CPV-2_1980_NA_North-America",
+                                        "name": "EU659116_USA_CPV-2_1980_NA_North-America",
                                         "node_attrs": {
                                           "div": 0.000941,
                                           "num_date": {
@@ -1140,8 +1140,8 @@
                                               1980.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "CPV-2"
                                           },
                                           "host": {
                                             "value": "dog",
@@ -1157,8 +1157,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "CPV-2"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -1170,9 +1170,9 @@
                                         "node_attrs": {
                                           "div": 0.000941,
                                           "num_date": {
-                                            "value": 1980.375,
+                                            "value": 1980.409,
                                             "confidence": [
-                                              1979.44,
+                                              1979.46,
                                               1980.946
                                             ]
                                           },
@@ -1181,14 +1181,14 @@
                                             "confidence": {
                                               "dog": 1.0
                                             },
-                                            "entropy": 0.00088
+                                            "entropy": 0.000877
                                           },
                                           "country": {
                                             "value": "USA",
                                             "confidence": {
                                               "USA": 1.0
                                             },
-                                            "entropy": 0.00259
+                                            "entropy": 0.00258
                                           }
                                         },
                                         "branch_attrs": {
@@ -1196,18 +1196,18 @@
                                         },
                                         "children": [
                                           {
-                                            "name": "EU659116_USA_CPV-2_1980_NA_North-America",
+                                            "name": "MN451668_USA_CPV-2_1980_NA_North-America",
                                             "node_attrs": {
                                               "div": 0.000941,
                                               "num_date": {
-                                                "value": 1980.914,
+                                                "value": 1980.937,
                                                 "confidence": [
                                                   1980.001,
                                                   1980.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "CPV-2"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -1223,8 +1223,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "CPV-2"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -1236,14 +1236,14 @@
                                             "node_attrs": {
                                               "div": 0.000941,
                                               "num_date": {
-                                                "value": 1980.914,
+                                                "value": 1980.937,
                                                 "confidence": [
                                                   1980.001,
                                                   1980.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "CPV-2"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -1259,8 +1259,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "CPV-2"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -1286,29 +1286,29 @@
                 "node_attrs": {
                   "div": 0.00151,
                   "num_date": {
-                    "value": 1978.426,
+                    "value": 1977.046,
                     "confidence": [
-                      1975.347,
-                      1982.741
+                      1972.599,
+                      1982.228
                     ]
+                  },
+                  "confidence": {
+                    "value": 97.0
                   },
                   "host": {
                     "value": "dog",
                     "confidence": {
-                      "dog": 0.985,
-                      "raccoon-dog": 0.014
+                      "dog": 0.986,
+                      "raccoon-dog": 0.0134
                     },
-                    "entropy": 0.0798
+                    "entropy": 0.0773
                   },
                   "country": {
                     "value": "USA",
                     "confidence": {
                       "USA": 0.999
                     },
-                    "entropy": 0.00694
-                  },
-                  "confidence": {
-                    "value": 97.0
+                    "entropy": 0.00724
                   }
                 },
                 "branch_attrs": {
@@ -1342,11 +1342,11 @@
                         "value": 2010.001,
                         "confidence": [
                           2010.001,
-                          2010.893
+                          2010.895
                         ]
                       },
-                      "source": {
-                        "value": "this study"
+                      "clade": {
+                        "value": "UA"
                       },
                       "host": {
                         "value": "raccoon-dog",
@@ -1362,8 +1362,8 @@
                         },
                         "entropy": -1e-12
                       },
-                      "clade": {
-                        "value": "UA"
+                      "source": {
+                        "value": "public database"
                       }
                     },
                     "branch_attrs": {
@@ -1396,28 +1396,28 @@
                     "node_attrs": {
                       "div": 0.00169,
                       "num_date": {
-                        "value": 1980.422,
+                        "value": 1980.423,
                         "confidence": [
-                          1978.337,
-                          1982.487
+                          1977.158,
+                          1982.47
                         ]
+                      },
+                      "confidence": {
+                        "value": 75.2
                       },
                       "host": {
                         "value": "dog",
                         "confidence": {
                           "dog": 1.0
                         },
-                        "entropy": 1.38e-06
+                        "entropy": 1.36e-06
                       },
                       "country": {
                         "value": "USA",
                         "confidence": {
                           "USA": 1.0
                         },
-                        "entropy": 0.000142
-                      },
-                      "confidence": {
-                        "value": 75.2
+                        "entropy": 0.000141
                       }
                     },
                     "branch_attrs": {
@@ -1441,12 +1441,12 @@
                           "num_date": {
                             "value": 1982.999,
                             "confidence": [
-                              1982.32,
+                              1982.193,
                               1982.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "UA"
                           },
                           "host": {
                             "value": "ND",
@@ -1462,8 +1462,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "UA"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -1493,12 +1493,12 @@
                           "num_date": {
                             "value": 1983.999,
                             "confidence": [
-                              1983.131,
+                              1983.109,
                               1983.999
                             ]
                           },
-                          "source": {
-                            "value": "public database"
+                          "clade": {
+                            "value": "UA"
                           },
                           "host": {
                             "value": "dog",
@@ -1514,8 +1514,8 @@
                             },
                             "entropy": -1e-12
                           },
-                          "clade": {
-                            "value": "UA"
+                          "source": {
+                            "value": "public database"
                           }
                         },
                         "branch_attrs": {
@@ -1529,22 +1529,25 @@
                         }
                       },
                       {
-                        "name": "NODE_0000024",
+                        "name": "NODE_0000020",
                         "node_attrs": {
                           "div": 0.00188,
                           "num_date": {
-                            "value": 1981.56,
+                            "value": 1981.677,
                             "confidence": [
-                              1979.694,
-                              1982.712
+                              1978.667,
+                              1982.327
                             ]
+                          },
+                          "confidence": {
+                            "value": 77.1
                           },
                           "host": {
                             "value": "dog",
                             "confidence": {
                               "dog": 1.0
                             },
-                            "entropy": 0.000854
+                            "entropy": 0.000851
                           },
                           "country": {
                             "value": "Australia",
@@ -1552,10 +1555,7 @@
                               "Australia": 0.979,
                               "USA": 0.0187
                             },
-                            "entropy": 0.113
-                          },
-                          "confidence": {
-                            "value": 77.1
+                            "entropy": 0.112
                           }
                         },
                         "branch_attrs": {
@@ -1579,12 +1579,12 @@
                               "num_date": {
                                 "value": 1982.999,
                                 "confidence": [
-                                  1982.22,
+                                  1982.154,
                                   1982.999
                                 ]
                               },
-                              "source": {
-                                "value": "public database"
+                              "clade": {
+                                "value": "UA"
                               },
                               "host": {
                                 "value": "dog",
@@ -1600,8 +1600,8 @@
                                 },
                                 "entropy": -1e-12
                               },
-                              "clade": {
-                                "value": "UA"
+                              "source": {
+                                "value": "public database"
                               }
                             },
                             "branch_attrs": {
@@ -1626,12 +1626,12 @@
                               "num_date": {
                                 "value": 1985.999,
                                 "confidence": [
-                                  1985.111,
+                                  1985.106,
                                   1985.999
                                 ]
                               },
-                              "source": {
-                                "value": "public database"
+                              "clade": {
+                                "value": "UA"
                               },
                               "host": {
                                 "value": "dog",
@@ -1647,8 +1647,8 @@
                                 },
                                 "entropy": -1e-12
                               },
-                              "clade": {
-                                "value": "UA"
+                              "source": {
+                                "value": "public database"
                               }
                             },
                             "branch_attrs": {
@@ -1664,34 +1664,34 @@
                         ]
                       },
                       {
-                        "name": "NODE_0000025",
+                        "name": "NODE_0000026",
                         "node_attrs": {
                           "div": 0.00188,
                           "num_date": {
-                            "value": 1982.259,
+                            "value": 1981.602,
                             "confidence": [
-                              1980.481,
-                              1983.402
+                              1979.512,
+                              1983.482
                             ]
+                          },
+                          "confidence": {
+                            "value": 75.2
                           },
                           "host": {
                             "value": "dog",
                             "confidence": {
                               "dog": 1.0
                             },
-                            "entropy": 0.0022
+                            "entropy": 0.00224
                           },
                           "country": {
                             "value": "USA",
                             "confidence": {
                               "USA": 0.984,
-                              "Canada": 0.0126,
+                              "Canada": 0.0123,
                               "Italy": 0.00107
                             },
-                            "entropy": 0.101
-                          },
-                          "confidence": {
-                            "value": 75.0
+                            "entropy": 0.1
                           }
                         },
                         "branch_attrs": {
@@ -1709,32 +1709,32 @@
                         },
                         "children": [
                           {
-                            "name": "NODE_0000026",
+                            "name": "NODE_0000027",
                             "node_attrs": {
                               "div": 0.00207,
                               "num_date": {
-                                "value": 1983.034,
+                                "value": 1982.712,
                                 "confidence": [
-                                  1981.761,
-                                  1983.87
+                                  1981.534,
+                                  1983.649
                                 ]
+                              },
+                              "confidence": {
+                                "value": 76.2
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.000923
+                                "entropy": 0.000921
                               },
                               "country": {
                                 "value": "USA",
                                 "confidence": {
                                   "USA": 0.999
                                 },
-                                "entropy": 0.00782
-                              },
-                              "confidence": {
-                                "value": 76.2
+                                "entropy": 0.00772
                               }
                             },
                             "branch_attrs": {
@@ -1756,8 +1756,8 @@
                                       1984.873
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -1773,8 +1773,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1788,12 +1788,12 @@
                                   "num_date": {
                                     "value": 1983.999,
                                     "confidence": [
-                                      1983.377,
+                                      1983.328,
                                       1983.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -1809,8 +1809,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1832,33 +1832,33 @@
                             ]
                           },
                           {
-                            "name": "NODE_0000027",
+                            "name": "NODE_0000028",
                             "node_attrs": {
                               "div": 0.00301,
                               "num_date": {
                                 "value": 2017.001,
                                 "confidence": [
-                                  2009.468,
+                                  2009.44,
                                   2017.946
                                 ]
+                              },
+                              "confidence": {
+                                "value": 99.0
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.00214
+                                "entropy": 0.00217
                               },
                               "country": {
                                 "value": "Canada",
                                 "confidence": {
-                                  "Canada": 0.989,
-                                  "USA": 0.00865
+                                  "Canada": 0.99,
+                                  "USA": 0.00846
                                 },
-                                "entropy": 0.0685
-                              },
-                              "confidence": {
-                                "value": 99.0
+                                "entropy": 0.0676
                               }
                             },
                             "branch_attrs": {
@@ -1882,11 +1882,11 @@
                                     "value": 2018.001,
                                     "confidence": [
                                       2018.001,
-                                      2018.88
+                                      2018.883
                                     ]
                                   },
-                                  "source": {
-                                    "value": "this study"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -1902,8 +1902,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1915,14 +1915,14 @@
                                 "node_attrs": {
                                   "div": 0.00301,
                                   "num_date": {
-                                    "value": 2017.9,
+                                    "value": 2017.001,
                                     "confidence": [
                                       2017.001,
                                       2017.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "this study"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -1938,8 +1938,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1951,13 +1951,13 @@
                         ]
                       },
                       {
-                        "name": "NODE_0000020",
+                        "name": "NODE_0000022",
                         "node_attrs": {
                           "div": 0.00169,
                           "num_date": {
-                            "value": 1981.658,
+                            "value": 1981.637,
                             "confidence": [
-                              1980.065,
+                              1979.028,
                               1983.592
                             ]
                           },
@@ -1966,7 +1966,7 @@
                             "confidence": {
                               "dog": 1.0
                             },
-                            "entropy": 0.00088
+                            "entropy": 0.000877
                           },
                           "country": {
                             "value": "USA",
@@ -1974,7 +1974,7 @@
                               "USA": 0.997,
                               "France": 0.00244
                             },
-                            "entropy": 0.0255
+                            "entropy": 0.0254
                           }
                         },
                         "branch_attrs": {
@@ -1986,14 +1986,14 @@
                             "node_attrs": {
                               "div": 0.00188,
                               "num_date": {
-                                "value": 1983.365,
+                                "value": 1983.692,
                                 "confidence": [
                                   1983.001,
                                   1983.999
                                 ]
                               },
-                              "source": {
-                                "value": "public database"
+                              "clade": {
+                                "value": "UA"
                               },
                               "host": {
                                 "value": "dog",
@@ -2009,8 +2009,8 @@
                                 },
                                 "entropy": -1e-12
                               },
-                              "clade": {
-                                "value": "UA"
+                              "source": {
+                                "value": "public database"
                               }
                             },
                             "branch_attrs": {
@@ -2022,14 +2022,14 @@
                             }
                           },
                           {
-                            "name": "NODE_0000021",
+                            "name": "NODE_0000023",
                             "node_attrs": {
                               "div": 0.00169,
                               "num_date": {
-                                "value": 1982.454,
+                                "value": 1982.502,
                                 "confidence": [
-                                  1981.517,
-                                  1983.694
+                                  1981.372,
+                                  1983.556
                                 ]
                               },
                               "host": {
@@ -2037,7 +2037,7 @@
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.000913
+                                "entropy": 0.000909
                               },
                               "country": {
                                 "value": "USA",
@@ -2046,7 +2046,7 @@
                                   "France": 0.0682,
                                   "Canada": 0.00542,
                                   "China": 0.00385,
-                                  "Italy": 0.00159
+                                  "Italy": 0.00158
                                 },
                                 "entropy": 0.345
                               }
@@ -2062,12 +2062,12 @@
                                   "num_date": {
                                     "value": 1983.999,
                                     "confidence": [
-                                      1983.145,
+                                      1983.139,
                                       1983.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -2083,8 +2083,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -2102,13 +2102,13 @@
                                 }
                               },
                               {
-                                "name": "NODE_0000022",
+                                "name": "NODE_0000024",
                                 "node_attrs": {
                                   "div": 0.00169,
                                   "num_date": {
-                                    "value": 1983.001,
+                                    "value": 1983.052,
                                     "confidence": [
-                                      1982.011,
+                                      1981.993,
                                       1983.843
                                     ]
                                   },
@@ -2117,7 +2117,7 @@
                                     "confidence": {
                                       "dog": 1.0
                                     },
-                                    "entropy": 0.00112
+                                    "entropy": 0.00111
                                   },
                                   "country": {
                                     "value": "USA",
@@ -2126,7 +2126,7 @@
                                       "France": 0.0227,
                                       "Canada": 0.0189,
                                       "China": 0.0152,
-                                      "Italy": 0.00194
+                                      "Italy": 0.00193
                                     },
                                     "entropy": 0.327
                                   }
@@ -2136,13 +2136,13 @@
                                 },
                                 "children": [
                                   {
-                                    "name": "NODE_0000023",
+                                    "name": "NODE_0000025",
                                     "node_attrs": {
                                       "div": 0.00169,
                                       "num_date": {
                                         "value": 1983.449,
                                         "confidence": [
-                                          1982.756,
+                                          1982.729,
                                           1983.946
                                         ]
                                       },
@@ -2151,14 +2151,14 @@
                                         "confidence": {
                                           "dog": 1.0
                                         },
-                                        "entropy": 0.000887
+                                        "entropy": 0.000884
                                       },
                                       "country": {
                                         "value": "USA",
                                         "confidence": {
                                           "USA": 0.998
                                         },
-                                        "entropy": 0.0211
+                                        "entropy": 0.021
                                       }
                                     },
                                     "branch_attrs": {
@@ -2166,18 +2166,18 @@
                                     },
                                     "children": [
                                       {
-                                        "name": "MN451656_USA_CPV-2a_1983_NA_North-America",
+                                        "name": "MN451660_USA_CPV-2a_1983_NA_North-America",
                                         "node_attrs": {
                                           "div": 0.00169,
                                           "num_date": {
-                                            "value": 1983.917,
+                                            "value": 1983.955,
                                             "confidence": [
                                               1983.001,
                                               1983.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "dog",
@@ -2193,8 +2193,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -2202,18 +2202,18 @@
                                         }
                                       },
                                       {
-                                        "name": "MN451660_USA_CPV-2a_1983_NA_North-America",
+                                        "name": "MN451656_USA_CPV-2a_1983_NA_North-America",
                                         "node_attrs": {
                                           "div": 0.00169,
                                           "num_date": {
-                                            "value": 1983.917,
+                                            "value": 1983.955,
                                             "confidence": [
                                               1983.001,
                                               1983.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "dog",
@@ -2229,8 +2229,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -2240,14 +2240,14 @@
                                     ]
                                   },
                                   {
-                                    "name": "NODE_0000028",
+                                    "name": "NODE_0000029",
                                     "node_attrs": {
                                       "div": 0.00169,
                                       "num_date": {
                                         "value": 1998.8,
                                         "confidence": [
-                                          1989.498,
-                                          2006.8
+                                          1989.478,
+                                          2006.815
                                         ]
                                       },
                                       "host": {
@@ -2255,23 +2255,23 @@
                                         "confidence": {
                                           "dog": 1.0
                                         },
-                                        "entropy": 0.0017
+                                        "entropy": 0.00169
                                       },
                                       "country": {
                                         "value": "USA",
                                         "confidence": {
-                                          "USA": 0.332,
-                                          "Canada": 0.314,
+                                          "USA": 0.333,
+                                          "Canada": 0.313,
                                           "China": 0.311,
                                           "France": 0.0111,
-                                          "Italy": 0.00722,
-                                          "Germany": 0.00394,
-                                          "Australia": 0.00393,
-                                          "Finland": 0.00391,
-                                          "Japan": 0.00389,
-                                          "New-Zealand": 0.00283,
-                                          "Bulgaria": 0.00283,
-                                          "Czechia": 0.00283
+                                          "Italy": 0.0072,
+                                          "Germany": 0.00393,
+                                          "Australia": 0.00392,
+                                          "Finland": 0.0039,
+                                          "Japan": 0.00388,
+                                          "New-Zealand": 0.00282,
+                                          "Bulgaria": 0.00282,
+                                          "Czechia": 0.00282
                                         },
                                         "entropy": 1.315
                                       }
@@ -2288,11 +2288,11 @@
                                             "value": 2014.001,
                                             "confidence": [
                                               2014.001,
-                                              2014.897
+                                              2014.896
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "dog",
@@ -2308,8 +2308,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -2329,34 +2329,34 @@
                                         }
                                       },
                                       {
-                                        "name": "NODE_0000016",
+                                        "name": "NODE_0000021",
                                         "node_attrs": {
                                           "div": 0.00245,
                                           "num_date": {
                                             "value": 2018.001,
                                             "confidence": [
-                                              2011.76,
-                                              2018.305
+                                              2011.784,
+                                              2018.304
                                             ]
+                                          },
+                                          "confidence": {
+                                            "value": 97.2
                                           },
                                           "host": {
                                             "value": "dog",
                                             "confidence": {
                                               "dog": 1.0
                                             },
-                                            "entropy": 0.00125
+                                            "entropy": 0.00124
                                           },
                                           "country": {
                                             "value": "Canada",
                                             "confidence": {
                                               "Canada": 0.988,
-                                              "USA": 0.00609,
-                                              "China": 0.00454
+                                              "USA": 0.0061,
+                                              "China": 0.00453
                                             },
                                             "entropy": 0.0808
-                                          },
-                                          "confidence": {
-                                            "value": 97.3
                                           }
                                         },
                                         "branch_attrs": {
@@ -2375,14 +2375,14 @@
                                             "node_attrs": {
                                               "div": 0.00245,
                                               "num_date": {
-                                                "value": 2018.185,
+                                                "value": 2018.193,
                                                 "confidence": [
                                                   2018.001,
                                                   2018.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "this study"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -2398,8 +2398,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -2411,14 +2411,14 @@
                                             "node_attrs": {
                                               "div": 0.00245,
                                               "num_date": {
-                                                "value": 2018.185,
+                                                "value": 2018.193,
                                                 "confidence": [
                                                   2018.001,
                                                   2018.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "this study"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -2434,8 +2434,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -2457,30 +2457,30 @@
                         "node_attrs": {
                           "div": 0.00188,
                           "num_date": {
-                            "value": 1982.996,
+                            "value": 1981.712,
                             "confidence": [
-                              1981.575,
-                              1984.076
+                              1979.766,
+                              1984.494
                             ]
+                          },
+                          "confidence": {
+                            "value": 82.0
                           },
                           "host": {
                             "value": "dog",
                             "confidence": {
                               "dog": 1.0
                             },
-                            "entropy": 3.57e-05
+                            "entropy": 3.56e-05
                           },
                           "country": {
                             "value": "USA",
                             "confidence": {
                               "USA": 0.946,
-                              "Italy": 0.0368,
+                              "Italy": 0.0367,
                               "France": 0.0154
                             },
                             "entropy": 0.25
-                          },
-                          "confidence": {
-                            "value": 82.1
                           }
                         },
                         "branch_attrs": {
@@ -2504,12 +2504,12 @@
                               "num_date": {
                                 "value": 1984.999,
                                 "confidence": [
-                                  1984.137,
+                                  1984.126,
                                   1984.999
                                 ]
                               },
-                              "source": {
-                                "value": "public database"
+                              "clade": {
+                                "value": "UA"
                               },
                               "host": {
                                 "value": "dog",
@@ -2525,8 +2525,8 @@
                                 },
                                 "entropy": -1e-12
                               },
-                              "clade": {
-                                "value": "UA"
+                              "source": {
+                                "value": "public database"
                               }
                             },
                             "branch_attrs": {
@@ -2539,14 +2539,14 @@
                             }
                           },
                           {
-                            "name": "NODE_0000031",
+                            "name": "NODE_0000032",
                             "node_attrs": {
                               "div": 0.00188,
                               "num_date": {
                                 "value": 1983.677,
                                 "confidence": [
-                                  1982.503,
-                                  1984.268
+                                  1982.375,
+                                  1984.266
                                 ]
                               },
                               "host": {
@@ -2554,16 +2554,16 @@
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 0.000883
+                                "entropy": 0.00088
                               },
                               "country": {
                                 "value": "USA",
                                 "confidence": {
                                   "USA": 0.979,
-                                  "Italy": 0.0191,
+                                  "Italy": 0.019,
                                   "France": 0.00105
                                 },
-                                "entropy": 0.109
+                                "entropy": 0.108
                               }
                             },
                             "branch_attrs": {
@@ -2577,12 +2577,12 @@
                                   "num_date": {
                                     "value": 1984.999,
                                     "confidence": [
-                                      1984.144,
+                                      1984.139,
                                       1984.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -2598,8 +2598,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -2611,14 +2611,14 @@
                                 }
                               },
                               {
-                                "name": "NODE_0000032",
+                                "name": "NODE_0000033",
                                 "node_attrs": {
                                   "div": 0.00188,
                                   "num_date": {
-                                    "value": 1984.192,
+                                    "value": 1984.123,
                                     "confidence": [
-                                      1983.423,
-                                      1984.819
+                                      1983.346,
+                                      1984.868
                                     ]
                                   },
                                   "host": {
@@ -2626,15 +2626,15 @@
                                     "confidence": {
                                       "dog": 1.0
                                     },
-                                    "entropy": 0.000978
+                                    "entropy": 0.000979
                                   },
                                   "country": {
                                     "value": "USA",
                                     "confidence": {
-                                      "USA": 0.943,
-                                      "Italy": 0.0533
+                                      "USA": 0.944,
+                                      "Italy": 0.053
                                     },
-                                    "entropy": 0.237
+                                    "entropy": 0.236
                                   }
                                 },
                                 "branch_attrs": {
@@ -2649,11 +2649,11 @@
                                         "value": 1999.001,
                                         "confidence": [
                                           1999.001,
-                                          1999.894
+                                          1999.895
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "UA"
                                       },
                                       "host": {
                                         "value": "dog",
@@ -2669,8 +2669,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "UA"
+                                      "source": {
+                                        "value": "public database"
                                       }
                                     },
                                     "branch_attrs": {
@@ -2697,14 +2697,14 @@
                                     "node_attrs": {
                                       "div": 0.00188,
                                       "num_date": {
-                                        "value": 1984.965,
+                                        "value": 1984.979,
                                         "confidence": [
                                           1984.001,
                                           1984.999
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "UA"
                                       },
                                       "host": {
                                         "value": "dog",
@@ -2720,8 +2720,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "UA"
+                                      "source": {
+                                        "value": "public database"
                                       }
                                     },
                                     "branch_attrs": {
@@ -2737,30 +2737,30 @@
                             "node_attrs": {
                               "div": 0.00207,
                               "num_date": {
-                                "value": 1983.691,
+                                "value": 1983.667,
                                 "confidence": [
-                                  1982.716,
-                                  1984.743
+                                  1982.508,
+                                  1984.729
                                 ]
+                              },
+                              "confidence": {
+                                "value": 53.4
                               },
                               "host": {
                                 "value": "dog",
                                 "confidence": {
                                   "dog": 1.0
                                 },
-                                "entropy": 9.58e-05
+                                "entropy": 9.51e-05
                               },
                               "country": {
                                 "value": "Italy",
                                 "confidence": {
-                                  "Italy": 0.949,
-                                  "USA": 0.0425,
-                                  "Germany": 0.00763
+                                  "Italy": 0.95,
+                                  "USA": 0.0423,
+                                  "Germany": 0.00754
                                 },
-                                "entropy": 0.226
-                              },
-                              "confidence": {
-                                "value": 82.2
+                                "entropy": 0.225
                               }
                             },
                             "branch_attrs": {
@@ -2784,12 +2784,12 @@
                                   "num_date": {
                                     "value": 1998.999,
                                     "confidence": [
-                                      1998.115,
+                                      1998.113,
                                       1998.999
                                     ]
                                   },
-                                  "source": {
-                                    "value": "public database"
+                                  "clade": {
+                                    "value": "UA"
                                   },
                                   "host": {
                                     "value": "dog",
@@ -2805,8 +2805,8 @@
                                     },
                                     "entropy": -1e-12
                                   },
-                                  "clade": {
-                                    "value": "UA"
+                                  "source": {
+                                    "value": "public database"
                                   }
                                 },
                                 "branch_attrs": {
@@ -2849,31 +2849,31 @@
                                 "node_attrs": {
                                   "div": 0.00226,
                                   "num_date": {
-                                    "value": 1984.593,
+                                    "value": 1984.771,
                                     "confidence": [
-                                      1983.515,
-                                      1986.415
+                                      1983.463,
+                                      1986.386
                                     ]
+                                  },
+                                  "confidence": {
+                                    "value": 76.5
                                   },
                                   "host": {
                                     "value": "dog",
                                     "confidence": {
                                       "dog": 0.999,
-                                      "ND": 0.0013
+                                      "ND": 0.00128
                                     },
-                                    "entropy": 0.0105
+                                    "entropy": 0.0104
                                   },
                                   "country": {
                                     "value": "Italy",
                                     "confidence": {
-                                      "Italy": 0.944,
-                                      "Germany": 0.0497,
-                                      "USA": 0.00548
+                                      "Italy": 0.945,
+                                      "Germany": 0.049,
+                                      "USA": 0.00541
                                     },
-                                    "entropy": 0.24
-                                  },
-                                  "confidence": {
-                                    "value": 76.5
+                                    "entropy": 0.238
                                   }
                                 },
                                 "branch_attrs": {
@@ -2891,12 +2891,12 @@
                                       "num_date": {
                                         "value": 1998.999,
                                         "confidence": [
-                                          1998.116,
+                                          1998.118,
                                           1998.999
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "UA"
                                       },
                                       "host": {
                                         "value": "dog",
@@ -2912,8 +2912,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "UA"
+                                      "source": {
+                                        "value": "public database"
                                       }
                                     },
                                     "branch_attrs": {
@@ -2949,9 +2949,12 @@
                                       "num_date": {
                                         "value": 1987.103,
                                         "confidence": [
-                                          1985.275,
-                                          1990.746
+                                          1985.197,
+                                          1990.436
                                         ]
+                                      },
+                                      "confidence": {
+                                        "value": 88.5
                                       },
                                       "host": {
                                         "value": "dog",
@@ -2959,18 +2962,15 @@
                                           "dog": 0.965,
                                           "ND": 0.0349
                                         },
-                                        "entropy": 0.155
+                                        "entropy": 0.154
                                       },
                                       "country": {
                                         "value": "Germany",
                                         "confidence": {
-                                          "Germany": 0.512,
+                                          "Germany": 0.511,
                                           "Italy": 0.487
                                         },
                                         "entropy": 0.707
-                                      },
-                                      "confidence": {
-                                        "value": 88.5
                                       }
                                     },
                                     "branch_attrs": {
@@ -2995,12 +2995,12 @@
                                           "num_date": {
                                             "value": 1995.999,
                                             "confidence": [
-                                              1995.11,
+                                              1995.108,
                                               1995.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "ND",
@@ -3016,8 +3016,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -3043,11 +3043,14 @@
                                         "node_attrs": {
                                           "div": 0.00339,
                                           "num_date": {
-                                            "value": 1994.778,
+                                            "value": 1994.777,
                                             "confidence": [
-                                              1991.396,
-                                              1996.938
+                                              1991.506,
+                                              1996.954
                                             ]
+                                          },
+                                          "confidence": {
+                                            "value": 93.6
                                           },
                                           "host": {
                                             "value": "dog",
@@ -3055,18 +3058,15 @@
                                               "dog": 0.999,
                                               "ND": 0.00119
                                             },
-                                            "entropy": 0.00972
+                                            "entropy": 0.00969
                                           },
                                           "country": {
                                             "value": "Germany",
                                             "confidence": {
-                                              "Germany": 0.508,
+                                              "Germany": 0.507,
                                               "Italy": 0.491
                                             },
                                             "entropy": 0.705
-                                          },
-                                          "confidence": {
-                                            "value": 93.6
                                           }
                                         },
                                         "branch_attrs": {
@@ -3094,12 +3094,12 @@
                                               "num_date": {
                                                 "value": 2000.999,
                                                 "confidence": [
-                                                  2000.117,
+                                                  2000.115,
                                                   2000.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -3115,8 +3115,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -3151,8 +3151,8 @@
                                                   1997.895
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -3168,8 +3168,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "this study"
                                               }
                                             },
                                             "branch_attrs": {
@@ -3197,32 +3197,32 @@
                                 "node_attrs": {
                                   "div": 0.00226,
                                   "num_date": {
-                                    "value": 1984.595,
+                                    "value": 1984.628,
                                     "confidence": [
-                                      1983.614,
-                                      1985.325
+                                      1983.617,
+                                      1985.74
                                     ]
+                                  },
+                                  "confidence": {
+                                    "value": 78.1
                                   },
                                   "host": {
                                     "value": "dog",
                                     "confidence": {
                                       "dog": 0.999
                                     },
-                                    "entropy": 0.0117
+                                    "entropy": 0.0116
                                   },
                                   "country": {
                                     "value": "Italy",
                                     "confidence": {
-                                      "Italy": 0.887,
-                                      "USA": 0.0651,
-                                      "Germany": 0.0258,
+                                      "Italy": 0.888,
+                                      "USA": 0.0649,
+                                      "Germany": 0.0257,
                                       "New-Zealand": 0.0139,
-                                      "Bulgaria": 0.0064
+                                      "Bulgaria": 0.00639
                                     },
-                                    "entropy": 0.482
-                                  },
-                                  "confidence": {
-                                    "value": 84.7
+                                    "entropy": 0.481
                                   }
                                 },
                                 "branch_attrs": {
@@ -3246,12 +3246,12 @@
                                       "num_date": {
                                         "value": 2010.999,
                                         "confidence": [
-                                          2010.105,
+                                          2010.104,
                                           2010.999
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "UA"
                                       },
                                       "host": {
                                         "value": "dog",
@@ -3267,8 +3267,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "UA"
+                                      "source": {
+                                        "value": "this study"
                                       }
                                     },
                                     "branch_attrs": {
@@ -3310,12 +3310,12 @@
                                       "num_date": {
                                         "value": 1993.999,
                                         "confidence": [
-                                          1993.106,
+                                          1993.107,
                                           1993.999
                                         ]
                                       },
-                                      "source": {
-                                        "value": "public database"
+                                      "clade": {
+                                        "value": "UA"
                                       },
                                       "host": {
                                         "value": "ND",
@@ -3331,8 +3331,8 @@
                                         },
                                         "entropy": -1e-12
                                       },
-                                      "clade": {
-                                        "value": "UA"
+                                      "source": {
+                                        "value": "public database"
                                       }
                                     },
                                     "branch_attrs": {
@@ -3359,11 +3359,14 @@
                                     "node_attrs": {
                                       "div": 0.00282,
                                       "num_date": {
-                                        "value": 1987.16,
+                                        "value": 1987.14,
                                         "confidence": [
-                                          1985.601,
-                                          1992.32
+                                          1985.708,
+                                          1992.304
                                         ]
+                                      },
+                                      "confidence": {
+                                        "value": 80.6
                                       },
                                       "host": {
                                         "value": "raccoon-dog",
@@ -3377,16 +3380,13 @@
                                         "value": "USA",
                                         "confidence": {
                                           "USA": 0.903,
-                                          "Italy": 0.0869,
-                                          "Germany": 0.00301,
+                                          "Italy": 0.087,
+                                          "Germany": 0.003,
                                           "New-Zealand": 0.00113,
                                           "France": 0.0011,
                                           "Canada": 0.00101
                                         },
                                         "entropy": 0.369
-                                      },
-                                      "confidence": {
-                                        "value": 80.6
                                       }
                                     },
                                     "branch_attrs": {
@@ -3413,12 +3413,12 @@
                                           "num_date": {
                                             "value": 2009.999,
                                             "confidence": [
-                                              2009.098,
+                                              2009.1,
                                               2009.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "this study"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "raccoon-dog",
@@ -3434,8 +3434,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -3471,9 +3471,12 @@
                                           "num_date": {
                                             "value": 2005.615,
                                             "confidence": [
-                                              2002.842,
-                                              2008.768
+                                              2003.459,
+                                              2008.843
                                             ]
+                                          },
+                                          "confidence": {
+                                            "value": 99.9
                                           },
                                           "host": {
                                             "value": "raccoon-dog",
@@ -3481,7 +3484,7 @@
                                               "raccoon-dog": 0.998,
                                               "dog": 0.00179
                                             },
-                                            "entropy": 0.0135
+                                            "entropy": 0.0134
                                           },
                                           "country": {
                                             "value": "USA",
@@ -3490,9 +3493,6 @@
                                               "Italy": 0.00268
                                             },
                                             "entropy": 0.0255
-                                          },
-                                          "confidence": {
-                                            "value": 99.9
                                           }
                                         },
                                         "branch_attrs": {
@@ -3531,11 +3531,11 @@
                                                 "value": 2008.001,
                                                 "confidence": [
                                                   2008.001,
-                                                  2008.879
+                                                  2008.88
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "this study"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "raccoon-dog",
@@ -3551,8 +3551,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "public database"
                                               }
                                             },
                                             "branch_attrs": {
@@ -3564,28 +3564,28 @@
                                             "node_attrs": {
                                               "div": 0.00584,
                                               "num_date": {
-                                                "value": 2007.756,
+                                                "value": 2007.835,
                                                 "confidence": [
-                                                  2005.643,
-                                                  2008.777
+                                                  2005.697,
+                                                  2008.792
                                                 ]
+                                              },
+                                              "confidence": {
+                                                "value": 78.9
                                               },
                                               "host": {
                                                 "value": "raccoon-dog",
                                                 "confidence": {
                                                   "raccoon-dog": 1.0
                                                 },
-                                                "entropy": 0.000964
+                                                "entropy": 0.000961
                                               },
                                               "country": {
                                                 "value": "USA",
                                                 "confidence": {
                                                   "USA": 1.0
                                                 },
-                                                "entropy": 0.00377
-                                              },
-                                              "confidence": {
-                                                "value": 79.5
+                                                "entropy": 0.00376
                                               }
                                             },
                                             "branch_attrs": {
@@ -3601,14 +3601,14 @@
                                                 "node_attrs": {
                                                   "div": 0.00602,
                                                   "num_date": {
-                                                    "value": 2009.597,
+                                                    "value": 2009.683,
                                                     "confidence": [
                                                       2009.001,
                                                       2009.999
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "this study"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "raccoon-dog",
@@ -3624,8 +3624,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "public database"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -3647,8 +3647,8 @@
                                                       2008.999
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "this study"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "raccoon-dog",
@@ -3664,8 +3664,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "public database"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -3693,29 +3693,29 @@
                                     "node_attrs": {
                                       "div": 0.00282,
                                       "num_date": {
-                                        "value": 1987.2,
+                                        "value": 1987.199,
                                         "confidence": [
-                                          1985.31,
-                                          1990.6
+                                          1985.174,
+                                          1990.468
                                         ]
+                                      },
+                                      "confidence": {
+                                        "value": 95.5
                                       },
                                       "host": {
                                         "value": "dog",
                                         "confidence": {
                                           "dog": 1.0
                                         },
-                                        "entropy": 5.83e-05
+                                        "entropy": 5.8e-05
                                       },
                                       "country": {
                                         "value": "Italy",
                                         "confidence": {
-                                          "Italy": 0.858,
+                                          "Italy": 0.859,
                                           "Germany": 0.14
                                         },
                                         "entropy": 0.415
-                                      },
-                                      "confidence": {
-                                        "value": 95.5
                                       }
                                     },
                                     "branch_attrs": {
@@ -3735,12 +3735,12 @@
                                           "num_date": {
                                             "value": 1997.999,
                                             "confidence": [
-                                              1997.105,
+                                              1997.104,
                                               1997.999
                                             ]
                                           },
-                                          "source": {
-                                            "value": "public database"
+                                          "clade": {
+                                            "value": "UA"
                                           },
                                           "host": {
                                             "value": "dog",
@@ -3756,8 +3756,8 @@
                                             },
                                             "entropy": -1e-12
                                           },
-                                          "clade": {
-                                            "value": "UA"
+                                          "source": {
+                                            "value": "public database"
                                           }
                                         },
                                         "branch_attrs": {
@@ -3789,9 +3789,12 @@
                                           "num_date": {
                                             "value": 1993.076,
                                             "confidence": [
-                                              1989.151,
-                                              1995.859
+                                              1989.119,
+                                              1996.082
                                             ]
+                                          },
+                                          "confidence": {
+                                            "value": 77.6
                                           },
                                           "host": {
                                             "value": "dog",
@@ -3808,9 +3811,6 @@
                                               "Czechia": 0.0071
                                             },
                                             "entropy": 0.456
-                                          },
-                                          "confidence": {
-                                            "value": 77.5
                                           }
                                         },
                                         "branch_attrs": {
@@ -3829,12 +3829,12 @@
                                               "num_date": {
                                                 "value": 2009.999,
                                                 "confidence": [
-                                                  2009.106,
+                                                  2009.105,
                                                   2009.999
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -3850,8 +3850,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "this study"
                                               }
                                             },
                                             "branch_attrs": {
@@ -3888,28 +3888,28 @@
                                               "num_date": {
                                                 "value": 1996.772,
                                                 "confidence": [
-                                                  1993.31,
-                                                  1998.436
+                                                  1993.313,
+                                                  1998.44
                                                 ]
+                                              },
+                                              "confidence": {
+                                                "value": 75.5
                                               },
                                               "host": {
                                                 "value": "dog",
                                                 "confidence": {
                                                   "dog": 1.0
                                                 },
-                                                "entropy": 0.00095
+                                                "entropy": 0.000946
                                               },
                                               "country": {
                                                 "value": "Germany",
                                                 "confidence": {
-                                                  "Germany": 0.898,
+                                                  "Germany": 0.899,
                                                   "Italy": 0.0493,
-                                                  "Czechia": 0.048
+                                                  "Czechia": 0.0479
                                                 },
                                                 "entropy": 0.423
-                                              },
-                                              "confidence": {
-                                                "value": 75.5
                                               }
                                             },
                                             "branch_attrs": {
@@ -3928,11 +3928,11 @@
                                                     "value": 2011.001,
                                                     "confidence": [
                                                       2011.001,
-                                                      2011.877
+                                                      2011.899
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "public database"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "dog",
@@ -3948,8 +3948,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "this study"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -3963,12 +3963,12 @@
                                                   "num_date": {
                                                     "value": 1999.999,
                                                     "confidence": [
-                                                      1999.121,
+                                                      1999.12,
                                                       1999.999
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "public database"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "dog",
@@ -3984,8 +3984,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "this study"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4013,11 +4013,14 @@
                                         "node_attrs": {
                                           "div": 0.00376,
                                           "num_date": {
-                                            "value": 1993.767,
+                                            "value": 1993.823,
                                             "confidence": [
-                                              1991.604,
-                                              1995.407
+                                              1991.553,
+                                              1995.457
                                             ]
+                                          },
+                                          "confidence": {
+                                            "value": 98.3
                                           },
                                           "host": {
                                             "value": "dog",
@@ -4029,13 +4032,10 @@
                                           "country": {
                                             "value": "Italy",
                                             "confidence": {
-                                              "Italy": 0.753,
-                                              "Germany": 0.246
+                                              "Italy": 0.754,
+                                              "Germany": 0.245
                                             },
-                                            "entropy": 0.569
-                                          },
-                                          "confidence": {
-                                            "value": 98.3
+                                            "entropy": 0.568
                                           }
                                         },
                                         "branch_attrs": {
@@ -4065,11 +4065,11 @@
                                                 "value": 2005.001,
                                                 "confidence": [
                                                   2005.001,
-                                                  2005.894
+                                                  2005.895
                                                 ]
                                               },
-                                              "source": {
-                                                "value": "public database"
+                                              "clade": {
+                                                "value": "UA"
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -4085,8 +4085,8 @@
                                                 },
                                                 "entropy": -1e-12
                                               },
-                                              "clade": {
-                                                "value": "UA"
+                                              "source": {
+                                                "value": "this study"
                                               }
                                             },
                                             "branch_attrs": {
@@ -4100,9 +4100,12 @@
                                               "num_date": {
                                                 "value": 1994.94,
                                                 "confidence": [
-                                                  1993.598,
-                                                  1995.945
+                                                  1993.564,
+                                                  1995.946
                                                 ]
+                                              },
+                                              "confidence": {
+                                                "value": 83.1
                                               },
                                               "host": {
                                                 "value": "dog",
@@ -4119,9 +4122,6 @@
                                                   "Germany": 0.129
                                                 },
                                                 "entropy": 0.385
-                                              },
-                                              "confidence": {
-                                                "value": 83.1
                                               }
                                             },
                                             "branch_attrs": {
@@ -4139,12 +4139,12 @@
                                                   "num_date": {
                                                     "value": 1995.999,
                                                     "confidence": [
-                                                      1995.198,
+                                                      1995.197,
                                                       1995.999
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "public database"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "ND",
@@ -4160,8 +4160,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "public database"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4180,11 +4180,11 @@
                                                     "value": 1999.001,
                                                     "confidence": [
                                                       1999.001,
-                                                      1999.886
+                                                      1999.885
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "public database"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "dog",
@@ -4200,8 +4200,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "public database"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4223,8 +4223,8 @@
                                                       2010.89
                                                     ]
                                                   },
-                                                  "source": {
-                                                    "value": "public database"
+                                                  "clade": {
+                                                    "value": "UA"
                                                   },
                                                   "host": {
                                                     "value": "dog",
@@ -4240,8 +4240,8 @@
                                                     },
                                                     "entropy": -1e-12
                                                   },
-                                                  "clade": {
-                                                    "value": "UA"
+                                                  "source": {
+                                                    "value": "public database"
                                                   }
                                                 },
                                                 "branch_attrs": {

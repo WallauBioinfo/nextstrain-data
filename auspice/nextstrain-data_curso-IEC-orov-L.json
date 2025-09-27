@@ -126,11 +126,11 @@
         "scale": [
           [
             "I",
-            "#FFFF99"
+            "#CCCC00"
           ],
           [
             "II",
-            "#CCFF99"
+            "#66CC00"
           ],
           [
             "IQTV",
@@ -185,77 +185,77 @@
       {
         "key": "location",
         "demes": {
-          "Para": {
-            "latitude": -3.79,
-            "longitude": -52.48
-          },
-          "French Guiana": {
-            "latitude": 3.933889,
-            "longitude": -53.125782
-          },
-          "Panama": {
-            "latitude": 8.537981,
-            "longitude": -80.782127
-          },
-          "Haiti": {
-            "latitude": 18.971187,
-            "longitude": -72.285215
-          },
           "Rondonia": {
             "latitude": -10.83,
             "longitude": -63.34
           },
-          "Minas Gerais": {
-            "latitude": -18.1,
-            "longitude": -44.38
-          },
-          "Roraima": {
-            "latitude": 1.99,
-            "longitude": -61.33
-          },
-          "Santa Catarina": {
-            "latitude": -27.45,
-            "longitude": -50.95
-          },
-          "Pernambuco": {
-            "latitude": -8.38,
-            "longitude": -37.86
-          },
-          "Acre": {
-            "latitude": -8.77,
-            "longitude": -70.55
+          "Para": {
+            "latitude": -3.79,
+            "longitude": -52.48
           },
           "Peru": {
             "latitude": -9.189967,
             "longitude": -75.015152
           },
-          "Brazil": {
-            "latitude": -14.235,
-            "longitude": -51.9253
+          "USA": {
+            "latitude": 37.0902,
+            "longitude": -95.7129
+          },
+          "Haiti": {
+            "latitude": 18.971187,
+            "longitude": -72.285215
+          },
+          "French Guiana": {
+            "latitude": 3.933889,
+            "longitude": -53.125782
+          },
+          "Pernambuco": {
+            "latitude": -8.38,
+            "longitude": -37.86
           },
           "Rio de Janeiro": {
             "latitude": -22.25,
             "longitude": -42.66
           },
-          "Amapa": {
-            "latitude": 1.41,
-            "longitude": -51.77
-          },
-          "Amazonas": {
-            "latitude": -3.47,
-            "longitude": -65.1
-          },
-          "Colombia": {
-            "latitude": 4.570868,
-            "longitude": -74.297333
+          "Acre": {
+            "latitude": -8.77,
+            "longitude": -70.55
           },
           "Espirito Santo": {
             "latitude": -19.19,
             "longitude": -40.34
           },
-          "USA": {
-            "latitude": 37.0902,
-            "longitude": -95.7129
+          "Amazonas": {
+            "latitude": -3.47,
+            "longitude": -65.1
+          },
+          "Santa Catarina": {
+            "latitude": -27.45,
+            "longitude": -50.95
+          },
+          "Minas Gerais": {
+            "latitude": -18.1,
+            "longitude": -44.38
+          },
+          "Brazil": {
+            "latitude": -14.235,
+            "longitude": -51.9253
+          },
+          "Roraima": {
+            "latitude": 1.99,
+            "longitude": -61.33
+          },
+          "Colombia": {
+            "latitude": 4.570868,
+            "longitude": -74.297333
+          },
+          "Panama": {
+            "latitude": 8.537981,
+            "longitude": -80.782127
+          },
+          "Amapa": {
+            "latitude": 1.41,
+            "longitude": -51.77
           }
         }
       }
@@ -2850,15 +2850,15 @@
                       "host": {
                         "value": "Human"
                       },
-                      "clade": {
-                        "value": "I"
-                      },
                       "location": {
                         "value": "Panama",
                         "confidence": {
                           "Panama": 1.0
                         },
                         "entropy": -1e-12
+                      },
+                      "clade": {
+                        "value": "I"
                       }
                     },
                     "branch_attrs": {
@@ -2887,15 +2887,15 @@
                       "host": {
                         "value": "Human"
                       },
-                      "clade": {
-                        "value": "I"
-                      },
                       "location": {
                         "value": "Panama",
                         "confidence": {
                           "Panama": 1.0
                         },
                         "entropy": -1e-12
+                      },
+                      "clade": {
+                        "value": "I"
                       }
                     },
                     "branch_attrs": {
@@ -3213,15 +3213,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "I"
-                          },
                           "location": {
                             "value": "Trinidad and Tobago",
                             "confidence": {
                               "Trinidad and Tobago": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "I"
                           }
                         },
                         "branch_attrs": {
@@ -3255,15 +3255,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "I"
-                          },
                           "location": {
                             "value": "Trinidad and Tobago",
                             "confidence": {
                               "Trinidad and Tobago": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "I"
                           }
                         },
                         "branch_attrs": {
@@ -3536,15 +3536,15 @@
                               "host": {
                                 "value": "Human"
                               },
-                              "clade": {
-                                "value": "I"
-                              },
                               "location": {
                                 "value": "Colombia",
                                 "confidence": {
                                   "Colombia": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "I"
                               }
                             },
                             "branch_attrs": {
@@ -3790,15 +3790,15 @@
                                   "host": {
                                     "value": "Human"
                                   },
-                                  "clade": {
-                                    "value": "I"
-                                  },
                                   "location": {
                                     "value": "Panama",
                                     "confidence": {
                                       "Panama": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "I"
                                   }
                                 },
                                 "branch_attrs": {
@@ -3821,15 +3821,15 @@
                                   "host": {
                                     "value": "Human"
                                   },
-                                  "clade": {
-                                    "value": "I"
-                                  },
                                   "location": {
                                     "value": "Panama",
                                     "confidence": {
                                       "Panama": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "I"
                                   }
                                 },
                                 "branch_attrs": {
@@ -3909,15 +3909,15 @@
                               "host": {
                                 "value": "Sloth"
                               },
-                              "clade": {
-                                "value": "I"
-                              },
                               "location": {
                                 "value": "Para",
                                 "confidence": {
                                   "Para": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "I"
                               }
                             },
                             "branch_attrs": {
@@ -3991,15 +3991,15 @@
                                   "host": {
                                     "value": "Ochlerotatus serratus"
                                   },
-                                  "clade": {
-                                    "value": "I"
-                                  },
                                   "location": {
                                     "value": "Para",
                                     "confidence": {
                                       "Para": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "I"
                                   }
                                 },
                                 "branch_attrs": {
@@ -4100,15 +4100,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "I"
-                                          },
                                           "location": {
                                             "value": "Maranhao",
                                             "confidence": {
                                               "Maranhao": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "I"
                                           }
                                         },
                                         "branch_attrs": {
@@ -4135,15 +4135,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "I"
-                                          },
                                           "location": {
                                             "value": "Amazonas",
                                             "confidence": {
                                               "Amazonas": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "I"
                                           }
                                         },
                                         "branch_attrs": {
@@ -4259,15 +4259,15 @@
                                                   "host": {
                                                     "value": "Sloth"
                                                   },
-                                                  "clade": {
-                                                    "value": "I"
-                                                  },
                                                   "location": {
                                                     "value": "Para",
                                                     "confidence": {
                                                       "Para": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "I"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4290,15 +4290,15 @@
                                                   "host": {
                                                     "value": "Sloth"
                                                   },
-                                                  "clade": {
-                                                    "value": "I"
-                                                  },
                                                   "location": {
                                                     "value": "Para",
                                                     "confidence": {
                                                       "Para": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "I"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4390,15 +4390,15 @@
                                                       "host": {
                                                         "value": "Sloth"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Para",
                                                         "confidence": {
                                                           "Para": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -4452,15 +4452,15 @@
                                                           "host": {
                                                             "value": "Sloth"
                                                           },
-                                                          "clade": {
-                                                            "value": "I"
-                                                          },
                                                           "location": {
                                                             "value": "Para",
                                                             "confidence": {
                                                               "Para": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "I"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -4494,15 +4494,15 @@
                                                           "host": {
                                                             "value": "Sloth"
                                                           },
-                                                          "clade": {
-                                                            "value": "I"
-                                                          },
                                                           "location": {
                                                             "value": "Para",
                                                             "confidence": {
                                                               "Para": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "I"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -4583,15 +4583,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Para",
                                                         "confidence": {
                                                           "Para": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -4669,15 +4669,15 @@
                                                           "host": {
                                                             "value": "Human"
                                                           },
-                                                          "clade": {
-                                                            "value": "I"
-                                                          },
                                                           "location": {
                                                             "value": "Para",
                                                             "confidence": {
                                                               "Para": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "I"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -4703,15 +4703,15 @@
                                                           "host": {
                                                             "value": "Human"
                                                           },
-                                                          "clade": {
-                                                            "value": "I"
-                                                          },
                                                           "location": {
                                                             "value": "Para",
                                                             "confidence": {
                                                               "Para": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "I"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -4808,15 +4808,15 @@
                                                   "host": {
                                                     "value": "Human"
                                                   },
-                                                  "clade": {
-                                                    "value": "I"
-                                                  },
                                                   "location": {
                                                     "value": "Maranhao",
                                                     "confidence": {
                                                       "Maranhao": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "I"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -4873,15 +4873,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Para",
                                                         "confidence": {
                                                           "Para": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -5013,15 +5013,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "I"
-                                                              },
                                                               "location": {
                                                                 "value": "Para",
                                                                 "confidence": {
                                                                   "Para": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "I"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -5059,15 +5059,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "I"
-                                                              },
                                                               "location": {
                                                                 "value": "Para",
                                                                 "confidence": {
                                                                   "Para": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "I"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -5165,15 +5165,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "I"
-                                                              },
                                                               "location": {
                                                                 "value": "Para",
                                                                 "confidence": {
                                                                   "Para": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "I"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -5279,15 +5279,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "I"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Para",
                                                                     "confidence": {
                                                                       "Para": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "I"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -5320,15 +5320,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "I"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Para",
                                                                     "confidence": {
                                                                       "Para": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "I"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -5680,15 +5680,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Amazonas",
                                                         "confidence": {
                                                           "Amazonas": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -5726,15 +5726,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Para",
                                                         "confidence": {
                                                           "Para": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -5801,15 +5801,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "I"
-                                                      },
                                                       "location": {
                                                         "value": "Rondonia",
                                                         "confidence": {
                                                           "Rondonia": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "I"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -5873,15 +5873,15 @@
                                                           "host": {
                                                             "value": "Human"
                                                           },
-                                                          "clade": {
-                                                            "value": "I"
-                                                          },
                                                           "location": {
                                                             "value": "Rondonia",
                                                             "confidence": {
                                                               "Rondonia": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "I"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -5944,15 +5944,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "I"
-                                                              },
                                                               "location": {
                                                                 "value": "Maranhao",
                                                                 "confidence": {
                                                                   "Maranhao": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "I"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -6019,15 +6019,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "I"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Para",
                                                                     "confidence": {
                                                                       "Para": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "I"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -6078,15 +6078,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "I"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Para",
                                                                         "confidence": {
                                                                           "Para": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "I"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -6142,15 +6142,15 @@
                                                                           "host": {
                                                                             "value": "Human"
                                                                           },
-                                                                          "clade": {
-                                                                            "value": "I"
-                                                                          },
                                                                           "location": {
                                                                             "value": "Para",
                                                                             "confidence": {
                                                                               "Para": 1.0
                                                                             },
                                                                             "entropy": -1e-12
+                                                                          },
+                                                                          "clade": {
+                                                                            "value": "I"
                                                                           }
                                                                         },
                                                                         "branch_attrs": {
@@ -6212,15 +6212,15 @@
                                                                               "host": {
                                                                                 "value": "Human"
                                                                               },
-                                                                              "clade": {
-                                                                                "value": "I"
-                                                                              },
                                                                               "location": {
                                                                                 "value": "Para",
                                                                                 "confidence": {
                                                                                   "Para": 1.0
                                                                                 },
                                                                                 "entropy": -1e-12
+                                                                              },
+                                                                              "clade": {
+                                                                                "value": "I"
                                                                               }
                                                                             },
                                                                             "branch_attrs": {
@@ -6283,15 +6283,15 @@
                                                                                   "host": {
                                                                                     "value": "Human"
                                                                                   },
-                                                                                  "clade": {
-                                                                                    "value": "I"
-                                                                                  },
                                                                                   "location": {
                                                                                     "value": "Para",
                                                                                     "confidence": {
                                                                                       "Para": 1.0
                                                                                     },
                                                                                     "entropy": -1e-12
+                                                                                  },
+                                                                                  "clade": {
+                                                                                    "value": "I"
                                                                                   }
                                                                                 },
                                                                                 "branch_attrs": {
@@ -6394,15 +6394,15 @@
                                                                                       "host": {
                                                                                         "value": "Human"
                                                                                       },
-                                                                                      "clade": {
-                                                                                        "value": "I"
-                                                                                      },
                                                                                       "location": {
                                                                                         "value": "Para",
                                                                                         "confidence": {
                                                                                           "Para": 1.0
                                                                                         },
                                                                                         "entropy": -1e-12
+                                                                                      },
+                                                                                      "clade": {
+                                                                                        "value": "I"
                                                                                       }
                                                                                     },
                                                                                     "branch_attrs": {
@@ -6454,15 +6454,15 @@
                                                                                           "host": {
                                                                                             "value": "Human"
                                                                                           },
-                                                                                          "clade": {
-                                                                                            "value": "I"
-                                                                                          },
                                                                                           "location": {
                                                                                             "value": "Para",
                                                                                             "confidence": {
                                                                                               "Para": 1.0
                                                                                             },
                                                                                             "entropy": -1e-12
+                                                                                          },
+                                                                                          "clade": {
+                                                                                            "value": "I"
                                                                                           }
                                                                                         },
                                                                                         "branch_attrs": {
@@ -6526,15 +6526,15 @@
                                                                                               "host": {
                                                                                                 "value": "Human"
                                                                                               },
-                                                                                              "clade": {
-                                                                                                "value": "I"
-                                                                                              },
                                                                                               "location": {
                                                                                                 "value": "Para",
                                                                                                 "confidence": {
                                                                                                   "Para": 1.0
                                                                                                 },
                                                                                                 "entropy": -1e-12
+                                                                                              },
+                                                                                              "clade": {
+                                                                                                "value": "I"
                                                                                               }
                                                                                             },
                                                                                             "branch_attrs": {
@@ -6627,15 +6627,15 @@
                                                                                                   "host": {
                                                                                                     "value": "Human"
                                                                                                   },
-                                                                                                  "clade": {
-                                                                                                    "value": "I"
-                                                                                                  },
                                                                                                   "location": {
                                                                                                     "value": "Acre",
                                                                                                     "confidence": {
                                                                                                       "Acre": 1.0
                                                                                                     },
                                                                                                     "entropy": -1e-12
+                                                                                                  },
+                                                                                                  "clade": {
+                                                                                                    "value": "I"
                                                                                                   }
                                                                                                 },
                                                                                                 "branch_attrs": {
@@ -6707,15 +6707,15 @@
                                                                                                       "host": {
                                                                                                         "value": "Callithrix"
                                                                                                       },
-                                                                                                      "clade": {
-                                                                                                        "value": "I"
-                                                                                                      },
                                                                                                       "location": {
                                                                                                         "value": "Minas Gerais",
                                                                                                         "confidence": {
                                                                                                           "Minas Gerais": 1.0
                                                                                                         },
                                                                                                         "entropy": -1e-12
+                                                                                                      },
+                                                                                                      "clade": {
+                                                                                                        "value": "I"
                                                                                                       }
                                                                                                     },
                                                                                                     "branch_attrs": {
@@ -6829,15 +6829,15 @@
                                                                                                           "host": {
                                                                                                             "value": "Culicoides paraensis"
                                                                                                           },
-                                                                                                          "clade": {
-                                                                                                            "value": "I"
-                                                                                                          },
                                                                                                           "location": {
                                                                                                             "value": "Para",
                                                                                                             "confidence": {
                                                                                                               "Para": 1.0
                                                                                                             },
                                                                                                             "entropy": -1e-12
+                                                                                                          },
+                                                                                                          "clade": {
+                                                                                                            "value": "I"
                                                                                                           }
                                                                                                         },
                                                                                                         "branch_attrs": {
@@ -6885,15 +6885,15 @@
                                                                                                           "host": {
                                                                                                             "value": "Culex quinquefasciatus"
                                                                                                           },
-                                                                                                          "clade": {
-                                                                                                            "value": "I"
-                                                                                                          },
                                                                                                           "location": {
                                                                                                             "value": "Para",
                                                                                                             "confidence": {
                                                                                                               "Para": 1.0
                                                                                                             },
                                                                                                             "entropy": -1e-12
+                                                                                                          },
+                                                                                                          "clade": {
+                                                                                                            "value": "I"
                                                                                                           }
                                                                                                         },
                                                                                                         "branch_attrs": {
@@ -7522,15 +7522,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "IQTV"
-                          },
                           "location": {
                             "value": "Peru",
                             "confidence": {
                               "Peru": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "IQTV"
                           }
                         },
                         "branch_attrs": {
@@ -7622,15 +7622,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "IQTV"
-                          },
                           "location": {
                             "value": "Peru",
                             "confidence": {
                               "Peru": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "IQTV"
                           }
                         },
                         "branch_attrs": {
@@ -8010,15 +8010,15 @@
                               "host": {
                                 "value": "Callithrix"
                               },
-                              "clade": {
-                                "value": "PEDV"
-                              },
                               "location": {
                                 "value": "Minas Gerais",
                                 "confidence": {
                                   "Minas Gerais": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "PEDV"
                               }
                             },
                             "branch_attrs": {
@@ -8041,15 +8041,15 @@
                               "host": {
                                 "value": "Callithrix"
                               },
-                              "clade": {
-                                "value": "PEDV"
-                              },
                               "location": {
                                 "value": "Minas Gerais",
                                 "confidence": {
                                   "Minas Gerais": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "PEDV"
                               }
                             },
                             "branch_attrs": {
@@ -8127,15 +8127,15 @@
                               "host": {
                                 "value": "Human"
                               },
-                              "clade": {
-                                "value": "II"
-                              },
                               "location": {
                                 "value": "Brazil",
                                 "confidence": {
                                   "Brazil": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "II"
                               }
                             },
                             "branch_attrs": {
@@ -8252,15 +8252,15 @@
                                   "host": {
                                     "value": "Human"
                                   },
-                                  "clade": {
-                                    "value": "II"
-                                  },
                                   "location": {
                                     "value": "Amapa",
                                     "confidence": {
                                       "Amapa": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "II"
                                   }
                                 },
                                 "branch_attrs": {
@@ -8315,15 +8315,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Amapa",
                                         "confidence": {
                                           "Amapa": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -8345,15 +8345,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Amapa",
                                         "confidence": {
                                           "Amapa": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -8415,15 +8415,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Amapa",
                                         "confidence": {
                                           "Amapa": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -8473,15 +8473,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "II"
-                                          },
                                           "location": {
                                             "value": "Haiti",
                                             "confidence": {
                                               "Haiti": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "II"
                                           }
                                         },
                                         "branch_attrs": {
@@ -8527,15 +8527,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "II"
-                                          },
                                           "location": {
                                             "value": "Amapa",
                                             "confidence": {
                                               "Amapa": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "II"
                                           }
                                         },
                                         "branch_attrs": {
@@ -8605,15 +8605,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Brazil",
                                         "confidence": {
                                           "Brazil": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -8642,15 +8642,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Amapa",
                                         "confidence": {
                                           "Amapa": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -8708,15 +8708,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "II"
-                                          },
                                           "location": {
                                             "value": "Amapa",
                                             "confidence": {
                                               "Amapa": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "II"
                                           }
                                         },
                                         "branch_attrs": {
@@ -8738,15 +8738,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "II"
-                                          },
                                           "location": {
                                             "value": "Amapa",
                                             "confidence": {
                                               "Amapa": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "II"
                                           }
                                         },
                                         "branch_attrs": {
@@ -9021,15 +9021,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "II"
-                          },
                           "location": {
                             "value": "Peru",
                             "confidence": {
                               "Peru": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "II"
                           }
                         },
                         "branch_attrs": {
@@ -9128,15 +9128,15 @@
                               "host": {
                                 "value": "Human"
                               },
-                              "clade": {
-                                "value": "II"
-                              },
                               "location": {
                                 "value": "Peru",
                                 "confidence": {
                                   "Peru": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "II"
                               }
                             },
                             "branch_attrs": {
@@ -9269,15 +9269,15 @@
                                   "host": {
                                     "value": "Human"
                                   },
-                                  "clade": {
-                                    "value": "II"
-                                  },
                                   "location": {
                                     "value": "Peru",
                                     "confidence": {
                                       "Peru": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "II"
                                   }
                                 },
                                 "branch_attrs": {
@@ -9364,15 +9364,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Peru",
                                         "confidence": {
                                           "Peru": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -9395,15 +9395,15 @@
                                       "host": {
                                         "value": "Human"
                                       },
-                                      "clade": {
-                                        "value": "II"
-                                      },
                                       "location": {
                                         "value": "Peru",
                                         "confidence": {
                                           "Peru": 1.0
                                         },
                                         "entropy": -1e-12
+                                      },
+                                      "clade": {
+                                        "value": "II"
                                       }
                                     },
                                     "branch_attrs": {
@@ -9491,15 +9491,15 @@
                           "host": {
                             "value": "Human"
                           },
-                          "clade": {
-                            "value": "II"
-                          },
                           "location": {
                             "value": "Brazil",
                             "confidence": {
                               "Brazil": 1.0
                             },
                             "entropy": -1e-12
+                          },
+                          "clade": {
+                            "value": "II"
                           }
                         },
                         "branch_attrs": {
@@ -9822,15 +9822,15 @@
                               "host": {
                                 "value": "Human"
                               },
-                              "clade": {
-                                "value": "II"
-                              },
                               "location": {
                                 "value": "Peru",
                                 "confidence": {
                                   "Peru": 1.0
                                 },
                                 "entropy": -1e-12
+                              },
+                              "clade": {
+                                "value": "II"
                               }
                             },
                             "branch_attrs": {
@@ -9991,15 +9991,15 @@
                                   "host": {
                                     "value": "Human"
                                   },
-                                  "clade": {
-                                    "value": "II"
-                                  },
                                   "location": {
                                     "value": "Peru",
                                     "confidence": {
                                       "Peru": 1.0
                                     },
                                     "entropy": -1e-12
+                                  },
+                                  "clade": {
+                                    "value": "II"
                                   }
                                 },
                                 "branch_attrs": {
@@ -10274,15 +10274,15 @@
                                               "host": {
                                                 "value": "Human"
                                               },
-                                              "clade": {
-                                                "value": "II"
-                                              },
                                               "location": {
                                                 "value": "Brazil",
                                                 "confidence": {
                                                   "Brazil": 1.0
                                                 },
                                                 "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "II"
                                               }
                                             },
                                             "branch_attrs": {
@@ -10429,15 +10429,15 @@
                                                   "host": {
                                                     "value": "Human"
                                                   },
-                                                  "clade": {
-                                                    "value": "II"
-                                                  },
                                                   "location": {
                                                     "value": "Colombia",
                                                     "confidence": {
                                                       "Colombia": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "II"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -10520,15 +10520,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "Peru",
                                                         "confidence": {
                                                           "Peru": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -10583,15 +10583,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "Colombia",
                                                         "confidence": {
                                                           "Colombia": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -10767,15 +10767,15 @@
                                                   "host": {
                                                     "value": "Human"
                                                   },
-                                                  "clade": {
-                                                    "value": "II"
-                                                  },
                                                   "location": {
                                                     "value": "Colombia",
                                                     "confidence": {
                                                       "Colombia": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "II"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -10815,15 +10815,15 @@
                                                   "host": {
                                                     "value": "Human"
                                                   },
-                                                  "clade": {
-                                                    "value": "II"
-                                                  },
                                                   "location": {
                                                     "value": "French Guiana",
                                                     "confidence": {
                                                       "French Guiana": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "II"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -10893,15 +10893,15 @@
                                                   "host": {
                                                     "value": "Human"
                                                   },
-                                                  "clade": {
-                                                    "value": "II"
-                                                  },
                                                   "location": {
                                                     "value": "Ecuador",
                                                     "confidence": {
                                                       "Ecuador": 1.0
                                                     },
                                                     "entropy": -1e-12
+                                                  },
+                                                  "clade": {
+                                                    "value": "II"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -10954,15 +10954,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "Ecuador",
                                                         "confidence": {
                                                           "Ecuador": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -11019,15 +11019,15 @@
                                                           "host": {
                                                             "value": "Human"
                                                           },
-                                                          "clade": {
-                                                            "value": "II"
-                                                          },
                                                           "location": {
                                                             "value": "Ecuador",
                                                             "confidence": {
                                                               "Ecuador": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "II"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -11079,15 +11079,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "II"
-                                                              },
                                                               "location": {
                                                                 "value": "Ecuador",
                                                                 "confidence": {
                                                                   "Ecuador": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "II"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -11145,15 +11145,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Ecuador",
                                                                     "confidence": {
                                                                       "Ecuador": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -11187,15 +11187,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Ecuador",
                                                                     "confidence": {
                                                                       "Ecuador": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -11288,15 +11288,15 @@
                                           "host": {
                                             "value": "Human"
                                           },
-                                          "clade": {
-                                            "value": "IQTV"
-                                          },
                                           "location": {
                                             "value": "USA",
                                             "confidence": {
                                               "USA": 1.0
                                             },
                                             "entropy": -1e-12
+                                          },
+                                          "clade": {
+                                            "value": "IQTV"
                                           }
                                         },
                                         "branch_attrs": {
@@ -11487,15 +11487,15 @@
                                               "host": {
                                                 "value": "Human"
                                               },
-                                              "clade": {
-                                                "value": "II"
-                                              },
                                               "location": {
                                                 "value": "Amazonas",
                                                 "confidence": {
                                                   "Amazonas": 1.0
                                                 },
                                                 "entropy": -1e-12
+                                              },
+                                              "clade": {
+                                                "value": "II"
                                               }
                                             },
                                             "branch_attrs": {
@@ -11668,15 +11668,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "Roraima",
                                                         "confidence": {
                                                           "Roraima": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -11702,15 +11702,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "Roraima",
                                                         "confidence": {
                                                           "Roraima": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -11788,15 +11788,15 @@
                                                       "host": {
                                                         "value": "Human"
                                                       },
-                                                      "clade": {
-                                                        "value": "II"
-                                                      },
                                                       "location": {
                                                         "value": "French Guiana",
                                                         "confidence": {
                                                           "French Guiana": 1.0
                                                         },
                                                         "entropy": -1e-12
+                                                      },
+                                                      "clade": {
+                                                        "value": "II"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -11900,15 +11900,15 @@
                                                           "host": {
                                                             "value": "Human"
                                                           },
-                                                          "clade": {
-                                                            "value": "II"
-                                                          },
                                                           "location": {
                                                             "value": "Rondonia",
                                                             "confidence": {
                                                               "Rondonia": 1.0
                                                             },
                                                             "entropy": -1e-12
+                                                          },
+                                                          "clade": {
+                                                            "value": "II"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -11971,15 +11971,15 @@
                                                               "host": {
                                                                 "value": "Human"
                                                               },
-                                                              "clade": {
-                                                                "value": "II"
-                                                              },
                                                               "location": {
                                                                 "value": "Amazonas",
                                                                 "confidence": {
                                                                   "Amazonas": 1.0
                                                                 },
                                                                 "entropy": -1e-12
+                                                              },
+                                                              "clade": {
+                                                                "value": "II"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -12038,15 +12038,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Rondonia",
                                                                     "confidence": {
                                                                       "Rondonia": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12073,15 +12073,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Amazonas",
                                                                     "confidence": {
                                                                       "Amazonas": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12138,15 +12138,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Pernambuco",
                                                                     "confidence": {
                                                                       "Pernambuco": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12182,15 +12182,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Colombia",
                                                                     "confidence": {
                                                                       "Colombia": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12218,15 +12218,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Amazonas",
                                                                     "confidence": {
                                                                       "Amazonas": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12293,15 +12293,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Amazonas",
                                                                     "confidence": {
                                                                       "Amazonas": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12372,15 +12372,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Amazonas",
                                                                         "confidence": {
                                                                           "Amazonas": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -12406,15 +12406,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Espirito Santo",
                                                                         "confidence": {
                                                                           "Espirito Santo": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -12494,15 +12494,15 @@
                                                                   "host": {
                                                                     "value": "Human"
                                                                   },
-                                                                  "clade": {
-                                                                    "value": "II"
-                                                                  },
                                                                   "location": {
                                                                     "value": "Acre",
                                                                     "confidence": {
                                                                       "Acre": 1.0
                                                                     },
                                                                     "entropy": -1e-12
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "II"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -12564,15 +12564,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Rio de Janeiro",
                                                                         "confidence": {
                                                                           "Rio de Janeiro": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -12608,15 +12608,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Peru",
                                                                         "confidence": {
                                                                           "Peru": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -12642,15 +12642,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Espirito Santo",
                                                                         "confidence": {
                                                                           "Espirito Santo": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -12687,15 +12687,15 @@
                                                                       "host": {
                                                                         "value": "Human"
                                                                       },
-                                                                      "clade": {
-                                                                        "value": "II"
-                                                                      },
                                                                       "location": {
                                                                         "value": "Santa Catarina",
                                                                         "confidence": {
                                                                           "Santa Catarina": 1.0
                                                                         },
                                                                         "entropy": -1e-12
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "II"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
